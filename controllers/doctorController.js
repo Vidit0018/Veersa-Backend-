@@ -15,17 +15,17 @@ const registerDoctor = asyncHandler(async (req, res) => {
     fees,
     availableDays,
     availableTimeSlots,
+    address, // ⬅️ Include this field from the request body
   } = req.body;
 
   // Check if doctor with the same email already exists
   const existingDoctor = await Doctor.findOne({ email });
-
   if (existingDoctor) {
     res.status(400);
     throw new Error('Doctor with this email already exists');
   }
 
-  // Create doctor profile
+  // Create doctor profile with address (required for geocoding)
   const doctor = await Doctor.create({
     name,
     email,
@@ -36,6 +36,7 @@ const registerDoctor = asyncHandler(async (req, res) => {
     fees,
     availableDays,
     availableTimeSlots,
+    address, // ⬅️ Must be passed to trigger geocoding
   });
 
   if (doctor) {
@@ -45,6 +46,7 @@ const registerDoctor = asyncHandler(async (req, res) => {
     throw new Error('Invalid doctor data');
   }
 });
+
 
 // @desc    Login doctor by email
 // @route   POST /api/doctors/login

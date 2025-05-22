@@ -5,6 +5,7 @@ const morgan = require('morgan');
 const connectDB = require('./config/db');
 const { errorHandler } = require('./middleware/errorMiddleware');
 
+
 const insertDoctorsFromJSON = require('./utils/dataset_mounting.js'); 
 // Load environment variables
 dotenv.config();
