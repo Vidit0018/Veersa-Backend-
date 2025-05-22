@@ -124,8 +124,24 @@ const deleteAppointment = asyncHandler(async (req, res) => {
 // @route   GET /api/appointments
 // @access  Public
 const getAllAppointments = asyncHandler(async (req, res) => {
-  const appointments = await Appointment.find({}).sort({ date: -1 });
-  res.json(appointments);
+  const page = Number(req.query.page) || 1;          // Default to page 1
+  const limit = Number(req.query.limit) || 10;       // Default to 10 records per page
+  const skip = (page - 1) * limit;
+
+  const total = await Appointment.countDocuments();  // Total number of appointments
+
+  const appointments = await Appointment.find({})
+    .sort({ date: -1 })
+    .skip(skip)
+    .limit(limit);
+
+  res.json({
+    page,
+    limit,
+    total,
+    totalPages: Math.ceil(total / limit),
+    appointments,
+  });
 });
 
 module.exports = {

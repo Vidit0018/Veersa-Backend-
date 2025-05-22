@@ -73,9 +73,25 @@ const loginDoctor = asyncHandler(async (req, res) => {
 // @route   GET /api/doctors
 // @access  Public
 const getDoctors = asyncHandler(async (req, res) => {
-  const doctors = await Doctor.find({});
-  res.json(doctors);
+  const page = Number(req.query.page) || 1;         // Default to page 1
+  const limit = Number(req.query.limit) || 10;      // Default to 10 doctors per page
+  const skip = (page - 1) * limit;
+
+  const total = await Doctor.countDocuments();      // Total number of doctors
+
+  const doctors = await Doctor.find({})
+    .skip(skip)
+    .limit(limit);
+
+  res.json({
+    page,
+    limit,
+    total,
+    totalPages: Math.ceil(total / limit),
+    doctors,
+  });
 });
+
 
 // @desc    Get doctor by ID
 // @route   GET /api/doctors/:id
