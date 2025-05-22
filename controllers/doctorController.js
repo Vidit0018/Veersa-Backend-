@@ -1,33 +1,42 @@
 const asyncHandler = require('express-async-handler');
 const Doctor = require('../models/doctorModel');
-const User = require('../models/userModel');
 
-// @desc    Register doctor profile
-// @route   POST /api/doctors
-// @access  Private
+// @desc    Register new doctor
+// @route   POST /api/doctors/register
+// @access  Public
 const registerDoctor = asyncHandler(async (req, res) => {
-  const { specialization, experience, fees, availableDays, availableTimeSlots } = req.body;
+  const {
+    name,
+    email,
+    phone,
+    password,
+    specialization,
+    experience,
+    fees,
+    availableDays,
+    availableTimeSlots,
+  } = req.body;
 
-  // Check if doctor profile already exists
-  const existingDoctor = await Doctor.findOne({ user: req.user._id });
+  // Check if doctor with the same email already exists
+  const existingDoctor = await Doctor.findOne({ email });
 
   if (existingDoctor) {
     res.status(400);
-    throw new Error('Doctor profile already exists');
+    throw new Error('Doctor with this email already exists');
   }
 
   // Create doctor profile
   const doctor = await Doctor.create({
-    user: req.user._id,
+    name,
+    email,
+    password,
+    phone,
     specialization,
     experience,
     fees,
     availableDays,
     availableTimeSlots,
   });
-
-  // Update user to be a doctor
-  await User.findByIdAndUpdate(req.user._id, { isDoctor: true });
 
   if (doctor) {
     res.status(201).json(doctor);
@@ -37,46 +46,34 @@ const registerDoctor = asyncHandler(async (req, res) => {
   }
 });
 
-// @desc    Get doctor profile
-// @route   GET /api/doctors/profile
-// @access  Private/Doctor
-const getDoctorProfile = asyncHandler(async (req, res) => {
-  const doctor = await Doctor.findOne({ user: req.user._id }).populate('user', 'name email phone');
+// @desc    Login doctor by email
+// @route   POST /api/doctors/login
+// @access  Public
+const loginDoctor = asyncHandler(async (req, res) => {
+  const { email, password } = req.body;
 
-  if (doctor) {
-    res.json(doctor);
+  const doctor = await Doctor.findOne({ email });
+
+  if (doctor && (await doctor.matchPassword(password))) {
+    res.json({
+      _id: doctor._id,
+      name: doctor.name,
+      email: doctor.email,
+      specialization: doctor.specialization,
+    });
   } else {
-    res.status(404);
-    throw new Error('Doctor profile not found');
+    res.status(401);
+    throw new Error('Invalid email or password');
   }
 });
 
-// @desc    Update doctor profile
-// @route   PUT /api/doctors/profile
-// @access  Private/Doctor
-const updateDoctorProfile = asyncHandler(async (req, res) => {
-  const doctor = await Doctor.findOne({ user: req.user._id });
 
-  if (doctor) {
-    doctor.specialization = req.body.specialization || doctor.specialization;
-    doctor.experience = req.body.experience || doctor.experience;
-    doctor.fees = req.body.fees || doctor.fees;
-    doctor.availableDays = req.body.availableDays || doctor.availableDays;
-    doctor.availableTimeSlots = req.body.availableTimeSlots || doctor.availableTimeSlots;
-
-    const updatedDoctor = await doctor.save();
-    res.json(updatedDoctor);
-  } else {
-    res.status(404);
-    throw new Error('Doctor profile not found');
-  }
-});
 
 // @desc    Get all doctors
 // @route   GET /api/doctors
 // @access  Public
 const getDoctors = asyncHandler(async (req, res) => {
-  const doctors = await Doctor.find({}).populate('user', 'name');
+  const doctors = await Doctor.find({});
   res.json(doctors);
 });
 
@@ -84,7 +81,7 @@ const getDoctors = asyncHandler(async (req, res) => {
 // @route   GET /api/doctors/:id
 // @access  Public
 const getDoctorById = asyncHandler(async (req, res) => {
-  const doctor = await Doctor.findById(req.params.id).populate('user', 'name email phone');
+  const doctor = await Doctor.findById(req.params.id);
 
   if (doctor) {
     res.json(doctor);
@@ -94,10 +91,61 @@ const getDoctorById = asyncHandler(async (req, res) => {
   }
 });
 
+// @desc    Update doctor by ID
+// @route   PUT /api/doctors/:id
+// @access  Public or Private (your choice)
+const updateDoctor = asyncHandler(async (req, res) => {
+  const doctor = await Doctor.findById(req.params.id);
+
+  if (!doctor) {
+    res.status(404);
+    throw new Error('Doctor not found');
+  }
+
+  const {
+    name,
+    email,
+    phone,
+    specialization,
+    experience,
+    fees,
+    availableDays,
+    availableTimeSlots,
+  } = req.body;
+
+  doctor.name = name || doctor.name;
+  doctor.email = email || doctor.email;
+  doctor.phone = phone || doctor.phone;
+  doctor.specialization = specialization || doctor.specialization;
+  doctor.experience = experience || doctor.experience;
+  doctor.fees = fees || doctor.fees;
+  doctor.availableDays = availableDays || doctor.availableDays;
+  doctor.availableTimeSlots = availableTimeSlots || doctor.availableTimeSlots;
+
+  const updatedDoctor = await doctor.save();
+  res.json(updatedDoctor);
+});
+
+// @desc    Delete doctor by ID
+// @route   DELETE /api/doctors/:id
+// @access  Public or Private
+const deleteDoctor = asyncHandler(async (req, res) => {
+  const doctor = await Doctor.findById(req.params.id);
+
+  if (!doctor) {
+    res.status(404);
+    throw new Error('Doctor not found');
+  }
+
+  await doctor.remove();
+  res.json({ message: 'Doctor removed' });
+});
+
 module.exports = {
   registerDoctor,
-  getDoctorProfile,
-  updateDoctorProfile,
+  loginDoctor,
   getDoctors,
   getDoctorById,
+  updateDoctor,
+  deleteDoctor,
 };

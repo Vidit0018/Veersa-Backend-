@@ -1,0 +1,4330 @@
+[
+  {
+    "name": "Paul Shaw",
+    "email": "marvin08@yahoo.com",
+    "password": "Password@123",
+    "phone": "665-987-1208x644",
+    "specialization": "Psychiatrist",
+    "experience": 14,
+    "fees": 991,
+    "availableDays": [
+      "Thursday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.1,
+    "numReviews": 137
+  },
+  {
+    "name": "Barbara Dixon",
+    "email": "cmorgan@yahoo.com",
+    "password": "Password@123",
+    "phone": "536-162-8891",
+    "specialization": "Urologist",
+    "experience": 26,
+    "fees": 1401,
+    "availableDays": [
+      "Saturday",
+      "Monday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.5,
+    "numReviews": 58
+  },
+  {
+    "name": "Robert Lopez",
+    "email": "patrickgates@gmail.com",
+    "password": "Password@123",
+    "phone": "+1-530-792-5970x0746",
+    "specialization": "General Physician",
+    "experience": 21,
+    "fees": 395,
+    "availableDays": [
+      "Friday",
+      "Monday",
+      "Wednesday",
+      "Sunday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.6,
+    "numReviews": 106
+  },
+  {
+    "name": "Daniel Ellis",
+    "email": "rickbeltran@mcbride-flowers.org",
+    "password": "Password@123",
+    "phone": "304.714.8390",
+    "specialization": "Gynecologist",
+    "experience": 28,
+    "fees": 1464,
+    "availableDays": [
+      "Friday",
+      "Thursday",
+      "Saturday",
+      "Sunday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 38
+  },
+  {
+    "name": "Matthew Kelley",
+    "email": "ethanpark@chambers.com",
+    "password": "Password@123",
+    "phone": "076.630.1922x3895",
+    "specialization": "Ophthalmologist",
+    "experience": 7,
+    "fees": 406,
+    "availableDays": [
+      "Friday",
+      "Tuesday",
+      "Sunday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 75
+  },
+  {
+    "name": "Jeffrey Lewis",
+    "email": "sblack@hotmail.com",
+    "password": "Password@123",
+    "phone": "(989)053-0051x9794",
+    "specialization": "Gastroenterologist",
+    "experience": 14,
+    "fees": 736,
+    "availableDays": [
+      "Sunday",
+      "Tuesday",
+      "Monday",
+      "Saturday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 3.8,
+    "numReviews": 44
+  },
+  {
+    "name": "Jason Osborne",
+    "email": "carolynwalker@gmail.com",
+    "password": "Password@123",
+    "phone": "001-432-645-2764",
+    "specialization": "Pulmonologist",
+    "experience": 7,
+    "fees": 837,
+    "availableDays": [
+      "Tuesday",
+      "Friday",
+      "Monday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.4,
+    "numReviews": 116
+  },
+  {
+    "name": "Kevin Hernandez",
+    "email": "tara42@myers.com",
+    "password": "Password@123",
+    "phone": "001-562-131-5613x7064",
+    "specialization": "Dermatologist",
+    "experience": 2,
+    "fees": 832,
+    "availableDays": [
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 5.0,
+    "numReviews": 95
+  },
+  {
+    "name": "Anna Raymond",
+    "email": "josephmahoney@gmail.com",
+    "password": "Password@123",
+    "phone": "690-402-3824x466",
+    "specialization": "Orthopedic Surgeon",
+    "experience": 13,
+    "fees": 821,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 67
+  },
+  {
+    "name": "Marcus Campbell",
+    "email": "craig99@ramirez.com",
+    "password": "Password@123",
+    "phone": "001-225-691-1546x262",
+    "specialization": "Allergist",
+    "experience": 19,
+    "fees": 830,
+    "availableDays": [
+      "Thursday",
+      "Friday",
+      "Sunday",
+      "Tuesday",
+      "Wednesday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.5,
+    "numReviews": 30
+  },
+  {
+    "name": "Heidi Mayer",
+    "email": "jessicaowens@fowler.com",
+    "password": "Password@123",
+    "phone": "161-792-2980",
+    "specialization": "Orthopedic Surgeon",
+    "experience": 2,
+    "fees": 1059,
+    "availableDays": [
+      "Sunday",
+      "Friday",
+      "Tuesday",
+      "Thursday",
+      "Monday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.2,
+    "numReviews": 45
+  },
+  {
+    "name": "Michaela Collins",
+    "email": "avelazquez@lopez.com",
+    "password": "Password@123",
+    "phone": "+1-957-806-1786x3199",
+    "specialization": "Allergist",
+    "experience": 18,
+    "fees": 881,
+    "availableDays": [
+      "Friday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.4,
+    "numReviews": 36
+  },
+  {
+    "name": "Joshua Pratt Jr.",
+    "email": "masseyjames@gmail.com",
+    "password": "Password@123",
+    "phone": "001-827-558-5383x55628",
+    "specialization": "Urologist",
+    "experience": 19,
+    "fees": 658,
+    "availableDays": [
+      "Saturday",
+      "Sunday",
+      "Wednesday",
+      "Monday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.9,
+    "numReviews": 61
+  },
+  {
+    "name": "Nicholas Cain",
+    "email": "gloria16@osborn.com",
+    "password": "Password@123",
+    "phone": "694.803.5647",
+    "specialization": "Allergist",
+    "experience": 7,
+    "fees": 504,
+    "availableDays": [
+      "Monday",
+      "Saturday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 13
+  },
+  {
+    "name": "Suzanne Byrd",
+    "email": "jacquelinetrevino@turner.com",
+    "password": "Password@123",
+    "phone": "794.047.8231x8585",
+    "specialization": "Rheumatologist",
+    "experience": 27,
+    "fees": 876,
+    "availableDays": [
+      "Wednesday",
+      "Tuesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.6,
+    "numReviews": 54
+  },
+  {
+    "name": "Stephanie Williams",
+    "email": "greenannette@meyer.net",
+    "password": "Password@123",
+    "phone": "001-138-538-8621x8903",
+    "specialization": "Allergist",
+    "experience": 9,
+    "fees": 1342,
+    "availableDays": [
+      "Saturday",
+      "Wednesday",
+      "Tuesday",
+      "Sunday",
+      "Monday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 87
+  },
+  {
+    "name": "Jack Nolan",
+    "email": "jjohnson@johnson.org",
+    "password": "Password@123",
+    "phone": "+1-837-663-0567x384",
+    "specialization": "Endocrinologist",
+    "experience": 16,
+    "fees": 369,
+    "availableDays": [
+      "Saturday",
+      "Sunday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.6,
+    "numReviews": 75
+  },
+  {
+    "name": "Michael Potts",
+    "email": "pricecharles@gmail.com",
+    "password": "Password@123",
+    "phone": "001-629-182-2947",
+    "specialization": "Urologist",
+    "experience": 3,
+    "fees": 978,
+    "availableDays": [
+      "Sunday",
+      "Wednesday",
+      "Friday",
+      "Tuesday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 5.0,
+    "numReviews": 133
+  },
+  {
+    "name": "Gina Jackson",
+    "email": "ashleyzhang@hotmail.com",
+    "password": "Password@123",
+    "phone": "326.376.6871x9191",
+    "specialization": "Urologist",
+    "experience": 9,
+    "fees": 511,
+    "availableDays": [
+      "Monday",
+      "Saturday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.2,
+    "numReviews": 111
+  },
+  {
+    "name": "Timothy Norris",
+    "email": "dsummers@hotmail.com",
+    "password": "Password@123",
+    "phone": "300.091.2001x819",
+    "specialization": "Dermatologist",
+    "experience": 9,
+    "fees": 660,
+    "availableDays": [
+      "Saturday",
+      "Friday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 33
+  },
+  {
+    "name": "Alvin Gonzalez",
+    "email": "douglas49@castro.info",
+    "password": "Password@123",
+    "phone": "(498)442-8243x2119",
+    "specialization": "Nephrologist",
+    "experience": 24,
+    "fees": 1451,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 3.9,
+    "numReviews": 57
+  },
+  {
+    "name": "Lauren Giles",
+    "email": "fdixon@gmail.com",
+    "password": "Password@123",
+    "phone": "+1-044-755-8462x171",
+    "specialization": "ENT Specialist",
+    "experience": 11,
+    "fees": 424,
+    "availableDays": [
+      "Sunday",
+      "Tuesday",
+      "Saturday",
+      "Friday",
+      "Monday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.6,
+    "numReviews": 131
+  },
+  {
+    "name": "Michele Stevens",
+    "email": "taylorbarrett@moore.com",
+    "password": "Password@123",
+    "phone": "907-989-2868",
+    "specialization": "General Physician",
+    "experience": 12,
+    "fees": 675,
+    "availableDays": [
+      "Wednesday",
+      "Sunday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.5,
+    "numReviews": 61
+  },
+  {
+    "name": "Ann Boone",
+    "email": "rachel96@combs.com",
+    "password": "Password@123",
+    "phone": "(878)865-9987x13169",
+    "specialization": "Urologist",
+    "experience": 7,
+    "fees": 996,
+    "availableDays": [
+      "Wednesday",
+      "Saturday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.9,
+    "numReviews": 28
+  },
+  {
+    "name": "Kristi Hudson",
+    "email": "sthomas@williams-ross.com",
+    "password": "Password@123",
+    "phone": "548.011.3272",
+    "specialization": "Psychiatrist",
+    "experience": 5,
+    "fees": 853,
+    "availableDays": [
+      "Thursday",
+      "Tuesday",
+      "Sunday",
+      "Saturday",
+      "Wednesday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.9,
+    "numReviews": 125
+  },
+  {
+    "name": "Monique Huynh",
+    "email": "larachristopher@lyons-hawkins.com",
+    "password": "Password@123",
+    "phone": "266.915.8315x44963",
+    "specialization": "Oncologist",
+    "experience": 26,
+    "fees": 673,
+    "availableDays": [
+      "Saturday",
+      "Sunday",
+      "Wednesday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.6,
+    "numReviews": 8
+  },
+  {
+    "name": "William Sloan",
+    "email": "kathy72@yahoo.com",
+    "password": "Password@123",
+    "phone": "435.468.5643x755",
+    "specialization": "Allergist",
+    "experience": 25,
+    "fees": 983,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.5,
+    "numReviews": 84
+  },
+  {
+    "name": "Lisa Hall",
+    "email": "qmarsh@coleman.com",
+    "password": "Password@123",
+    "phone": "(564)054-9704",
+    "specialization": "Pulmonologist",
+    "experience": 10,
+    "fees": 1052,
+    "availableDays": [
+      "Wednesday",
+      "Monday",
+      "Thursday",
+      "Sunday",
+      "Tuesday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 7
+  },
+  {
+    "name": "Christopher Esparza",
+    "email": "hardyjoann@hotmail.com",
+    "password": "Password@123",
+    "phone": "263-590-1581",
+    "specialization": "Gynecologist",
+    "experience": 11,
+    "fees": 1327,
+    "availableDays": [
+      "Thursday",
+      "Saturday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 103
+  },
+  {
+    "name": "Michael Barber",
+    "email": "sheri24@gmail.com",
+    "password": "Password@123",
+    "phone": "141.892.9465",
+    "specialization": "Pediatrician",
+    "experience": 1,
+    "fees": 421,
+    "availableDays": [
+      "Saturday",
+      "Monday",
+      "Thursday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 88
+  },
+  {
+    "name": "James Davis",
+    "email": "fryewilliam@hooper-hobbs.com",
+    "password": "Password@123",
+    "phone": "794.623.7733x7173",
+    "specialization": "Radiologist",
+    "experience": 10,
+    "fees": 818,
+    "availableDays": [
+      "Monday",
+      "Saturday",
+      "Friday",
+      "Tuesday",
+      "Sunday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.1,
+    "numReviews": 64
+  },
+  {
+    "name": "Franklin Flores",
+    "email": "igreen@hotmail.com",
+    "password": "Password@123",
+    "phone": "+1-377-480-3465x52567",
+    "specialization": "Allergist",
+    "experience": 31,
+    "fees": 556,
+    "availableDays": [
+      "Thursday",
+      "Friday",
+      "Tuesday",
+      "Saturday",
+      "Monday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.4,
+    "numReviews": 58
+  },
+  {
+    "name": "David Garcia",
+    "email": "cpatterson@moreno.com",
+    "password": "Password@123",
+    "phone": "001-519-707-5499",
+    "specialization": "Dentist",
+    "experience": 28,
+    "fees": 488,
+    "availableDays": [
+      "Tuesday",
+      "Monday",
+      "Saturday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.9,
+    "numReviews": 68
+  },
+  {
+    "name": "Jacob Johnson",
+    "email": "patricia05@greene.net",
+    "password": "Password@123",
+    "phone": "(267)708-3016",
+    "specialization": "ENT Specialist",
+    "experience": 1,
+    "fees": 903,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Monday",
+      "Saturday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.2,
+    "numReviews": 107
+  },
+  {
+    "name": "Christopher Bowen",
+    "email": "stephanie70@hotmail.com",
+    "password": "Password@123",
+    "phone": "(382)303-9153x8452",
+    "specialization": "Gynecologist",
+    "experience": 26,
+    "fees": 870,
+    "availableDays": [
+      "Friday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 79
+  },
+  {
+    "name": "Mr. Anthony Carson",
+    "email": "lwilson@gmail.com",
+    "password": "Password@123",
+    "phone": "161-579-6088",
+    "specialization": "Nephrologist",
+    "experience": 25,
+    "fees": 734,
+    "availableDays": [
+      "Monday",
+      "Thursday",
+      "Tuesday",
+      "Saturday",
+      "Sunday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.7,
+    "numReviews": 52
+  },
+  {
+    "name": "Jennifer Nichols",
+    "email": "ningram@gmail.com",
+    "password": "Password@123",
+    "phone": "(125)015-4195x46674",
+    "specialization": "Nephrologist",
+    "experience": 9,
+    "fees": 1040,
+    "availableDays": [
+      "Thursday",
+      "Monday",
+      "Saturday",
+      "Tuesday",
+      "Sunday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.3,
+    "numReviews": 100
+  },
+  {
+    "name": "Kelly Manning",
+    "email": "vanessabuchanan@wade-patel.com",
+    "password": "Password@123",
+    "phone": "874.952.7115x6639",
+    "specialization": "Psychiatrist",
+    "experience": 22,
+    "fees": 912,
+    "availableDays": [
+      "Monday",
+      "Thursday",
+      "Tuesday",
+      "Wednesday",
+      "Sunday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.5,
+    "numReviews": 139
+  },
+  {
+    "name": "Jose Hamilton",
+    "email": "jenniferhughes@newman.com",
+    "password": "Password@123",
+    "phone": "091-224-6658",
+    "specialization": "Endocrinologist",
+    "experience": 9,
+    "fees": 1467,
+    "availableDays": [
+      "Thursday",
+      "Monday",
+      "Saturday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 90
+  },
+  {
+    "name": "Julie Oliver",
+    "email": "byrdcharles@dixon-harris.com",
+    "password": "Password@123",
+    "phone": "8740411404",
+    "specialization": "Dermatologist",
+    "experience": 34,
+    "fees": 1182,
+    "availableDays": [
+      "Thursday",
+      "Sunday",
+      "Tuesday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 103
+  },
+  {
+    "name": "Melissa Hull",
+    "email": "wilcoxjames@gmail.com",
+    "password": "Password@123",
+    "phone": "+1-080-732-6882x29137",
+    "specialization": "General Physician",
+    "experience": 30,
+    "fees": 621,
+    "availableDays": [
+      "Saturday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.0,
+    "numReviews": 69
+  },
+  {
+    "name": "Mr. Robert Gonzales",
+    "email": "sthompson@mccarthy.net",
+    "password": "Password@123",
+    "phone": "+1-768-577-0757x4117",
+    "specialization": "Dermatologist",
+    "experience": 8,
+    "fees": 539,
+    "availableDays": [
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.0,
+    "numReviews": 83
+  },
+  {
+    "name": "Michael Crawford",
+    "email": "ashley69@day.info",
+    "password": "Password@123",
+    "phone": "523-188-7620x15669",
+    "specialization": "Neurologist",
+    "experience": 23,
+    "fees": 331,
+    "availableDays": [
+      "Wednesday",
+      "Saturday",
+      "Thursday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 64
+  },
+  {
+    "name": "Lisa Myers",
+    "email": "nicholasshort@smith-cruz.org",
+    "password": "Password@123",
+    "phone": "+1-897-955-4790",
+    "specialization": "Psychiatrist",
+    "experience": 31,
+    "fees": 1127,
+    "availableDays": [
+      "Monday",
+      "Friday",
+      "Thursday",
+      "Tuesday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.1,
+    "numReviews": 91
+  },
+  {
+    "name": "Brandi Pierce",
+    "email": "samuel45@hotmail.com",
+    "password": "Password@123",
+    "phone": "001-038-082-7318x705",
+    "specialization": "Dermatologist",
+    "experience": 28,
+    "fees": 702,
+    "availableDays": [
+      "Sunday",
+      "Wednesday",
+      "Friday",
+      "Tuesday",
+      "Monday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.7,
+    "numReviews": 103
+  },
+  {
+    "name": "David Castro",
+    "email": "bradley73@hotmail.com",
+    "password": "Password@123",
+    "phone": "+1-586-025-8720",
+    "specialization": "Ophthalmologist",
+    "experience": 17,
+    "fees": 615,
+    "availableDays": [
+      "Friday",
+      "Sunday",
+      "Monday",
+      "Wednesday",
+      "Saturday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.1,
+    "numReviews": 75
+  },
+  {
+    "name": "Chris Johnson",
+    "email": "tammy99@choi-norman.com",
+    "password": "Password@123",
+    "phone": "821.323.2574x49613",
+    "specialization": "Urologist",
+    "experience": 16,
+    "fees": 1147,
+    "availableDays": [
+      "Tuesday",
+      "Friday",
+      "Monday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 134
+  },
+  {
+    "name": "Carolyn Obrien",
+    "email": "bjohnson@fernandez.com",
+    "password": "Password@123",
+    "phone": "+1-018-896-9661",
+    "specialization": "Pediatrician",
+    "experience": 17,
+    "fees": 952,
+    "availableDays": [
+      "Wednesday",
+      "Saturday",
+      "Thursday",
+      "Sunday",
+      "Friday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.6,
+    "numReviews": 93
+  },
+  {
+    "name": "Cesar Stevens",
+    "email": "jessica36@smith.com",
+    "password": "Password@123",
+    "phone": "(821)592-8750x06011",
+    "specialization": "Dermatologist",
+    "experience": 15,
+    "fees": 1242,
+    "availableDays": [
+      "Wednesday",
+      "Thursday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.2,
+    "numReviews": 102
+  },
+  {
+    "name": "Linda Ross",
+    "email": "davidspence@yahoo.com",
+    "password": "Password@123",
+    "phone": "633-104-8035x41488",
+    "specialization": "Radiologist",
+    "experience": 22,
+    "fees": 1081,
+    "availableDays": [
+      "Wednesday",
+      "Monday",
+      "Sunday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 3.8,
+    "numReviews": 47
+  },
+  {
+    "name": "Kathleen Gomez",
+    "email": "bryan29@hotmail.com",
+    "password": "Password@123",
+    "phone": "681.040.1691",
+    "specialization": "Neurologist",
+    "experience": 29,
+    "fees": 1492,
+    "availableDays": [
+      "Sunday",
+      "Tuesday",
+      "Wednesday",
+      "Friday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.1,
+    "numReviews": 95
+  },
+  {
+    "name": "Christina Cooper",
+    "email": "karl30@park-myers.org",
+    "password": "Password@123",
+    "phone": "+1-211-034-4749x81495",
+    "specialization": "Ophthalmologist",
+    "experience": 29,
+    "fees": 1276,
+    "availableDays": [
+      "Wednesday",
+      "Saturday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.6,
+    "numReviews": 74
+  },
+  {
+    "name": "Daniel Leon",
+    "email": "mark23@jones-nielsen.biz",
+    "password": "Password@123",
+    "phone": "0299232200",
+    "specialization": "Nephrologist",
+    "experience": 28,
+    "fees": 340,
+    "availableDays": [
+      "Friday",
+      "Monday",
+      "Thursday",
+      "Tuesday",
+      "Wednesday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 3.9,
+    "numReviews": 102
+  },
+  {
+    "name": "Jennifer Phillips",
+    "email": "tammyreynolds@hotmail.com",
+    "password": "Password@123",
+    "phone": "+1-655-811-4034x960",
+    "specialization": "Allergist",
+    "experience": 10,
+    "fees": 967,
+    "availableDays": [
+      "Thursday",
+      "Wednesday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.5,
+    "numReviews": 102
+  },
+  {
+    "name": "William Patterson",
+    "email": "jocook@clark.info",
+    "password": "Password@123",
+    "phone": "818.656.3926x6171",
+    "specialization": "General Physician",
+    "experience": 20,
+    "fees": 826,
+    "availableDays": [
+      "Friday",
+      "Sunday",
+      "Saturday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.6,
+    "numReviews": 110
+  },
+  {
+    "name": "Melissa Bowman",
+    "email": "mark76@hotmail.com",
+    "password": "Password@123",
+    "phone": "001-799-924-0651",
+    "specialization": "Nephrologist",
+    "experience": 32,
+    "fees": 768,
+    "availableDays": [
+      "Monday",
+      "Friday",
+      "Sunday",
+      "Thursday",
+      "Tuesday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.0,
+    "numReviews": 100
+  },
+  {
+    "name": "Victoria Lindsey",
+    "email": "joseph55@yahoo.com",
+    "password": "Password@123",
+    "phone": "+1-612-633-4248x095",
+    "specialization": "Urologist",
+    "experience": 19,
+    "fees": 1251,
+    "availableDays": [
+      "Saturday",
+      "Sunday",
+      "Tuesday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 128
+  },
+  {
+    "name": "Eric Wallace",
+    "email": "mcneillydia@lawson-wong.info",
+    "password": "Password@123",
+    "phone": "(618)900-9573",
+    "specialization": "Gynecologist",
+    "experience": 14,
+    "fees": 583,
+    "availableDays": [
+      "Tuesday",
+      "Friday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.4,
+    "numReviews": 36
+  },
+  {
+    "name": "Taylor Ramirez",
+    "email": "yprice@hotmail.com",
+    "password": "Password@123",
+    "phone": "384-107-2223",
+    "specialization": "Pediatrician",
+    "experience": 10,
+    "fees": 746,
+    "availableDays": [
+      "Wednesday",
+      "Monday",
+      "Sunday",
+      "Saturday",
+      "Friday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.4,
+    "numReviews": 87
+  },
+  {
+    "name": "Nicholas Salas",
+    "email": "matthewvelasquez@rosario.com",
+    "password": "Password@123",
+    "phone": "001-970-792-5686x525",
+    "specialization": "Urologist",
+    "experience": 25,
+    "fees": 915,
+    "availableDays": [
+      "Wednesday",
+      "Saturday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 130
+  },
+  {
+    "name": "Tammy Elliott",
+    "email": "treese@hebert.info",
+    "password": "Password@123",
+    "phone": "(127)778-0548",
+    "specialization": "Pulmonologist",
+    "experience": 26,
+    "fees": 1242,
+    "availableDays": [
+      "Wednesday",
+      "Sunday",
+      "Monday",
+      "Saturday",
+      "Thursday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.9,
+    "numReviews": 10
+  },
+  {
+    "name": "Michael Morrison",
+    "email": "monique47@johnson-anderson.org",
+    "password": "Password@123",
+    "phone": "001-623-878-5024",
+    "specialization": "Endocrinologist",
+    "experience": 20,
+    "fees": 1144,
+    "availableDays": [
+      "Tuesday",
+      "Sunday",
+      "Monday",
+      "Friday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 62
+  },
+  {
+    "name": "Alexis Jimenez",
+    "email": "morgan02@hotmail.com",
+    "password": "Password@123",
+    "phone": "(935)108-3852x15042",
+    "specialization": "Nephrologist",
+    "experience": 7,
+    "fees": 481,
+    "availableDays": [
+      "Wednesday",
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.2,
+    "numReviews": 61
+  },
+  {
+    "name": "Erin Medina",
+    "email": "ugraham@wallace.com",
+    "password": "Password@123",
+    "phone": "+1-047-856-5859x47409",
+    "specialization": "Allergist",
+    "experience": 28,
+    "fees": 642,
+    "availableDays": [
+      "Saturday",
+      "Friday",
+      "Sunday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.1,
+    "numReviews": 98
+  },
+  {
+    "name": "Courtney Barnes",
+    "email": "laura43@phillips.com",
+    "password": "Password@123",
+    "phone": "001-650-097-3416x904",
+    "specialization": "Ophthalmologist",
+    "experience": 28,
+    "fees": 1457,
+    "availableDays": [
+      "Wednesday",
+      "Tuesday",
+      "Friday",
+      "Thursday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 3.8,
+    "numReviews": 141
+  },
+  {
+    "name": "Jamie Herrera",
+    "email": "vreed@gmail.com",
+    "password": "Password@123",
+    "phone": "(334)455-1116x30204",
+    "specialization": "Urologist",
+    "experience": 9,
+    "fees": 1229,
+    "availableDays": [
+      "Friday",
+      "Monday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 141
+  },
+  {
+    "name": "Lisa Harris",
+    "email": "vanessa88@gmail.com",
+    "password": "Password@123",
+    "phone": "+1-077-486-8668x92008",
+    "specialization": "Allergist",
+    "experience": 14,
+    "fees": 351,
+    "availableDays": [
+      "Sunday",
+      "Monday",
+      "Thursday",
+      "Saturday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.1,
+    "numReviews": 140
+  },
+  {
+    "name": "Mr. John Conner DVM",
+    "email": "cameron26@hotmail.com",
+    "password": "Password@123",
+    "phone": "600.513.2709x642",
+    "specialization": "Rheumatologist",
+    "experience": 30,
+    "fees": 700,
+    "availableDays": [
+      "Thursday",
+      "Sunday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 14
+  },
+  {
+    "name": "Jennifer James",
+    "email": "dixondonna@baldwin.com",
+    "password": "Password@123",
+    "phone": "(755)322-1180x15560",
+    "specialization": "Dentist",
+    "experience": 25,
+    "fees": 1348,
+    "availableDays": [
+      "Tuesday",
+      "Saturday",
+      "Thursday",
+      "Friday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.7,
+    "numReviews": 60
+  },
+  {
+    "name": "Chloe Hebert",
+    "email": "xbenjamin@gmail.com",
+    "password": "Password@123",
+    "phone": "902-240-1629x5597",
+    "specialization": "Oncologist",
+    "experience": 31,
+    "fees": 509,
+    "availableDays": [
+      "Monday",
+      "Sunday",
+      "Wednesday",
+      "Tuesday",
+      "Friday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.8,
+    "numReviews": 18
+  },
+  {
+    "name": "Heather Harrison",
+    "email": "julianmccoy@gmail.com",
+    "password": "Password@123",
+    "phone": "+1-576-250-6488",
+    "specialization": "General Physician",
+    "experience": 12,
+    "fees": 1044,
+    "availableDays": [
+      "Sunday",
+      "Friday",
+      "Wednesday",
+      "Thursday",
+      "Monday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.4,
+    "numReviews": 58
+  },
+  {
+    "name": "Holly Farley",
+    "email": "barbarablackburn@gmail.com",
+    "password": "Password@123",
+    "phone": "453-435-6929",
+    "specialization": "Dermatologist",
+    "experience": 28,
+    "fees": 845,
+    "availableDays": [
+      "Wednesday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 120
+  },
+  {
+    "name": "Cynthia Curry",
+    "email": "jcasey@davis.com",
+    "password": "Password@123",
+    "phone": "015-615-8418x628",
+    "specialization": "Endocrinologist",
+    "experience": 3,
+    "fees": 679,
+    "availableDays": [
+      "Wednesday",
+      "Thursday",
+      "Sunday",
+      "Friday",
+      "Monday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.6,
+    "numReviews": 102
+  },
+  {
+    "name": "Sabrina Adams",
+    "email": "jennifersmith@bennett.com",
+    "password": "Password@123",
+    "phone": "(027)203-8451x3443",
+    "specialization": "Cardiologist",
+    "experience": 24,
+    "fees": 670,
+    "availableDays": [
+      "Sunday",
+      "Friday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.0,
+    "numReviews": 39
+  },
+  {
+    "name": "Justin Jacobson",
+    "email": "reyesjulia@hotmail.com",
+    "password": "Password@123",
+    "phone": "4831985480",
+    "specialization": "Rheumatologist",
+    "experience": 5,
+    "fees": 1205,
+    "availableDays": [
+      "Thursday",
+      "Wednesday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.2,
+    "numReviews": 139
+  },
+  {
+    "name": "Linda Maldonado",
+    "email": "patricia33@gmail.com",
+    "password": "Password@123",
+    "phone": "(401)470-6067x68102",
+    "specialization": "Nephrologist",
+    "experience": 16,
+    "fees": 994,
+    "availableDays": [
+      "Thursday",
+      "Monday",
+      "Sunday",
+      "Saturday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.0,
+    "numReviews": 31
+  },
+  {
+    "name": "Allison Fernandez",
+    "email": "debrasmith@gmail.com",
+    "password": "Password@123",
+    "phone": "+1-623-791-8576",
+    "specialization": "Allergist",
+    "experience": 31,
+    "fees": 318,
+    "availableDays": [
+      "Thursday",
+      "Friday",
+      "Sunday",
+      "Saturday",
+      "Monday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.0,
+    "numReviews": 65
+  },
+  {
+    "name": "Nicole Lopez",
+    "email": "dianaschaefer@foster.net",
+    "password": "Password@123",
+    "phone": "(092)351-5671x260",
+    "specialization": "ENT Specialist",
+    "experience": 6,
+    "fees": 943,
+    "availableDays": [
+      "Wednesday",
+      "Monday",
+      "Friday",
+      "Sunday",
+      "Saturday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.6,
+    "numReviews": 107
+  },
+  {
+    "name": "David Reynolds",
+    "email": "michaelmurphy@sanchez.com",
+    "password": "Password@123",
+    "phone": "230-874-4898",
+    "specialization": "Rheumatologist",
+    "experience": 22,
+    "fees": 471,
+    "availableDays": [
+      "Wednesday",
+      "Sunday",
+      "Thursday",
+      "Saturday",
+      "Tuesday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.7,
+    "numReviews": 68
+  },
+  {
+    "name": "Christine Garcia",
+    "email": "hickskelsey@robinson.com",
+    "password": "Password@123",
+    "phone": "(521)719-5666x898",
+    "specialization": "Endocrinologist",
+    "experience": 15,
+    "fees": 899,
+    "availableDays": [
+      "Thursday",
+      "Saturday",
+      "Tuesday",
+      "Monday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.7,
+    "numReviews": 38
+  },
+  {
+    "name": "Jennifer Stewart",
+    "email": "andersonvalerie@gmail.com",
+    "password": "Password@123",
+    "phone": "(569)593-4630",
+    "specialization": "General Physician",
+    "experience": 6,
+    "fees": 374,
+    "availableDays": [
+      "Thursday",
+      "Saturday",
+      "Monday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 45
+  },
+  {
+    "name": "Jason Prince",
+    "email": "thomas28@jones.com",
+    "password": "Password@123",
+    "phone": "(276)384-2597x786",
+    "specialization": "Radiologist",
+    "experience": 28,
+    "fees": 916,
+    "availableDays": [
+      "Tuesday",
+      "Monday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 11
+  },
+  {
+    "name": "Susan Peterson",
+    "email": "fergusonjennifer@washington.com",
+    "password": "Password@123",
+    "phone": "+1-479-417-6815x0381",
+    "specialization": "Dentist",
+    "experience": 7,
+    "fees": 1099,
+    "availableDays": [
+      "Friday",
+      "Monday",
+      "Thursday",
+      "Sunday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.9,
+    "numReviews": 88
+  },
+  {
+    "name": "Amy Jimenez",
+    "email": "tracygordon@cobb.com",
+    "password": "Password@123",
+    "phone": "001-365-966-4179x109",
+    "specialization": "Gastroenterologist",
+    "experience": 3,
+    "fees": 437,
+    "availableDays": [
+      "Friday",
+      "Tuesday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 3.9,
+    "numReviews": 108
+  },
+  {
+    "name": "David Sanchez",
+    "email": "robertholland@vaughn.com",
+    "password": "Password@123",
+    "phone": "368.361.8967",
+    "specialization": "Dentist",
+    "experience": 27,
+    "fees": 1493,
+    "availableDays": [
+      "Sunday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.5,
+    "numReviews": 42
+  },
+  {
+    "name": "Joseph Henson",
+    "email": "christopher19@hotmail.com",
+    "password": "Password@123",
+    "phone": "(098)055-8728",
+    "specialization": "Radiologist",
+    "experience": 30,
+    "fees": 1325,
+    "availableDays": [
+      "Tuesday",
+      "Friday",
+      "Sunday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.9,
+    "numReviews": 68
+  },
+  {
+    "name": "Dana Grant",
+    "email": "kingpam@jones-lee.com",
+    "password": "Password@123",
+    "phone": "(437)538-7971x5019",
+    "specialization": "Orthopedic Surgeon",
+    "experience": 10,
+    "fees": 313,
+    "availableDays": [
+      "Sunday",
+      "Friday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 107
+  },
+  {
+    "name": "Calvin Cross",
+    "email": "samuelclark@hotmail.com",
+    "password": "Password@123",
+    "phone": "965-098-9143",
+    "specialization": "Radiologist",
+    "experience": 20,
+    "fees": 1374,
+    "availableDays": [
+      "Sunday",
+      "Thursday",
+      "Wednesday",
+      "Friday",
+      "Monday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.1,
+    "numReviews": 49
+  },
+  {
+    "name": "Guy Bass",
+    "email": "brownsamuel@yahoo.com",
+    "password": "Password@123",
+    "phone": "049.506.4172",
+    "specialization": "Nephrologist",
+    "experience": 24,
+    "fees": 397,
+    "availableDays": [
+      "Thursday",
+      "Saturday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.4,
+    "numReviews": 61
+  },
+  {
+    "name": "Donna Berg",
+    "email": "crossstephanie@gmail.com",
+    "password": "Password@123",
+    "phone": "001-705-120-5496",
+    "specialization": "Pediatrician",
+    "experience": 31,
+    "fees": 382,
+    "availableDays": [
+      "Wednesday",
+      "Monday",
+      "Sunday",
+      "Tuesday",
+      "Saturday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.2,
+    "numReviews": 38
+  },
+  {
+    "name": "Donna Klein",
+    "email": "perezwilliam@hotmail.com",
+    "password": "Password@123",
+    "phone": "+1-956-463-6842",
+    "specialization": "Urologist",
+    "experience": 18,
+    "fees": 622,
+    "availableDays": [
+      "Thursday",
+      "Friday",
+      "Sunday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.5,
+    "numReviews": 32
+  },
+  {
+    "name": "Brenda Miller",
+    "email": "wardsteven@yahoo.com",
+    "password": "Password@123",
+    "phone": "001-239-333-2340x7515",
+    "specialization": "Cardiologist",
+    "experience": 9,
+    "fees": 362,
+    "availableDays": [
+      "Saturday",
+      "Thursday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.5,
+    "numReviews": 87
+  },
+  {
+    "name": "Cynthia Shaw",
+    "email": "valerie09@maldonado.com",
+    "password": "Password@123",
+    "phone": "(431)275-3208x4237",
+    "specialization": "Nephrologist",
+    "experience": 28,
+    "fees": 1388,
+    "availableDays": [
+      "Wednesday",
+      "Friday",
+      "Thursday",
+      "Sunday",
+      "Tuesday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 88
+  },
+  {
+    "name": "Marcus Hicks",
+    "email": "selenawhite@hester.com",
+    "password": "Password@123",
+    "phone": "330-800-3771x83410",
+    "specialization": "Gynecologist",
+    "experience": 35,
+    "fees": 328,
+    "availableDays": [
+      "Tuesday",
+      "Saturday",
+      "Thursday",
+      "Friday",
+      "Monday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.0,
+    "numReviews": 59
+  },
+  {
+    "name": "Christopher Dunn",
+    "email": "jwallace@hotmail.com",
+    "password": "Password@123",
+    "phone": "(567)945-8706x6110",
+    "specialization": "Dentist",
+    "experience": 33,
+    "fees": 971,
+    "availableDays": [
+      "Thursday",
+      "Tuesday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.9,
+    "numReviews": 101
+  },
+  {
+    "name": "Jack Brown",
+    "email": "barrychristine@coleman.biz",
+    "password": "Password@123",
+    "phone": "(405)138-1893x5051",
+    "specialization": "Dermatologist",
+    "experience": 30,
+    "fees": 1041,
+    "availableDays": [
+      "Thursday",
+      "Saturday",
+      "Wednesday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.2,
+    "numReviews": 75
+  },
+  {
+    "name": "Tonya Brown",
+    "email": "andrewhunt@gmail.com",
+    "password": "Password@123",
+    "phone": "836.584.5904x386",
+    "specialization": "Dentist",
+    "experience": 21,
+    "fees": 899,
+    "availableDays": [
+      "Sunday",
+      "Thursday",
+      "Wednesday",
+      "Monday",
+      "Saturday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.7,
+    "numReviews": 14
+  },
+  {
+    "name": "Regina Guerra",
+    "email": "mjohnson@guerrero.com",
+    "password": "Password@123",
+    "phone": "(593)713-3548",
+    "specialization": "Pulmonologist",
+    "experience": 23,
+    "fees": 344,
+    "availableDays": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Saturday",
+      "Friday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 10
+  },
+  {
+    "name": "Robert Lee",
+    "email": "jonesangela@gmail.com",
+    "password": "Password@123",
+    "phone": "129-500-8426",
+    "specialization": "Rheumatologist",
+    "experience": 12,
+    "fees": 1375,
+    "availableDays": [
+      "Thursday",
+      "Monday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 3.8,
+    "numReviews": 105
+  },
+  {
+    "name": "Jessica Davis",
+    "email": "friley@turner.net",
+    "password": "Password@123",
+    "phone": "857-754-2965x8372",
+    "specialization": "Dermatologist",
+    "experience": 11,
+    "fees": 1202,
+    "availableDays": [
+      "Saturday",
+      "Tuesday",
+      "Monday",
+      "Friday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.9,
+    "numReviews": 21
+  },
+  {
+    "name": "Matthew Lopez",
+    "email": "julia97@yahoo.com",
+    "password": "Password@123",
+    "phone": "(749)616-1350",
+    "specialization": "Dentist",
+    "experience": 2,
+    "fees": 1361,
+    "availableDays": [
+      "Monday",
+      "Saturday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.2,
+    "numReviews": 126
+  },
+  {
+    "name": "Christie Snow",
+    "email": "mccluremichelle@hotmail.com",
+    "password": "Password@123",
+    "phone": "521.053.7904x9207",
+    "specialization": "Gynecologist",
+    "experience": 33,
+    "fees": 430,
+    "availableDays": [
+      "Thursday",
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 108
+  },
+  {
+    "name": "Travis Owens",
+    "email": "kenneth41@smith-parrish.com",
+    "password": "Password@123",
+    "phone": "(653)302-4515x11707",
+    "specialization": "Gastroenterologist",
+    "experience": 2,
+    "fees": 1319,
+    "availableDays": [
+      "Tuesday",
+      "Sunday",
+      "Friday",
+      "Monday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 66
+  },
+  {
+    "name": "Mary Hurst",
+    "email": "ginahicks@hotmail.com",
+    "password": "Password@123",
+    "phone": "(976)198-0290",
+    "specialization": "Cardiologist",
+    "experience": 7,
+    "fees": 751,
+    "availableDays": [
+      "Saturday",
+      "Wednesday",
+      "Friday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.5,
+    "numReviews": 75
+  },
+  {
+    "name": "Whitney Nichols",
+    "email": "kenneth37@malone.com",
+    "password": "Password@123",
+    "phone": "(549)958-5819x0372",
+    "specialization": "Endocrinologist",
+    "experience": 7,
+    "fees": 467,
+    "availableDays": [
+      "Monday",
+      "Saturday",
+      "Friday",
+      "Tuesday",
+      "Thursday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.5,
+    "numReviews": 137
+  },
+  {
+    "name": "Sheila Johnson",
+    "email": "pettykaren@yahoo.com",
+    "password": "Password@123",
+    "phone": "1290788005",
+    "specialization": "Radiologist",
+    "experience": 33,
+    "fees": 1358,
+    "availableDays": [
+      "Wednesday",
+      "Saturday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.5,
+    "numReviews": 114
+  },
+  {
+    "name": "Joanna Estrada",
+    "email": "sbarrera@yahoo.com",
+    "password": "Password@123",
+    "phone": "001-283-356-0848x36873",
+    "specialization": "Dentist",
+    "experience": 9,
+    "fees": 461,
+    "availableDays": [
+      "Saturday",
+      "Thursday",
+      "Friday",
+      "Wednesday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.5,
+    "numReviews": 61
+  },
+  {
+    "name": "Jason Fleming",
+    "email": "eadkins@thomas.com",
+    "password": "Password@123",
+    "phone": "487.137.3554x2221",
+    "specialization": "Endocrinologist",
+    "experience": 18,
+    "fees": 753,
+    "availableDays": [
+      "Saturday",
+      "Friday",
+      "Monday",
+      "Thursday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.7,
+    "numReviews": 147
+  },
+  {
+    "name": "Katrina West",
+    "email": "parksmathew@gmail.com",
+    "password": "Password@123",
+    "phone": "001-363-094-6130x89401",
+    "specialization": "Radiologist",
+    "experience": 14,
+    "fees": 718,
+    "availableDays": [
+      "Friday",
+      "Monday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 26
+  },
+  {
+    "name": "Dean Sullivan",
+    "email": "fishermario@yahoo.com",
+    "password": "Password@123",
+    "phone": "001-526-707-9901x521",
+    "specialization": "Gastroenterologist",
+    "experience": 7,
+    "fees": 1374,
+    "availableDays": [
+      "Sunday",
+      "Monday",
+      "Friday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.4,
+    "numReviews": 55
+  },
+  {
+    "name": "Kim Harrison",
+    "email": "williamhuber@moreno.com",
+    "password": "Password@123",
+    "phone": "(902)656-9454",
+    "specialization": "Neurologist",
+    "experience": 1,
+    "fees": 1167,
+    "availableDays": [
+      "Sunday",
+      "Wednesday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 6
+  },
+  {
+    "name": "John Nelson",
+    "email": "richjustin@gmail.com",
+    "password": "Password@123",
+    "phone": "867-877-1113",
+    "specialization": "Rheumatologist",
+    "experience": 17,
+    "fees": 359,
+    "availableDays": [
+      "Wednesday",
+      "Tuesday",
+      "Sunday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.2,
+    "numReviews": 36
+  },
+  {
+    "name": "Stephanie Herrera",
+    "email": "jeremyellis@gmail.com",
+    "password": "Password@123",
+    "phone": "368-219-3375x60810",
+    "specialization": "Gynecologist",
+    "experience": 13,
+    "fees": 1377,
+    "availableDays": [
+      "Wednesday",
+      "Sunday",
+      "Friday",
+      "Thursday",
+      "Monday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.2,
+    "numReviews": 107
+  },
+  {
+    "name": "Margaret Phillips",
+    "email": "hughesgarrett@hotmail.com",
+    "password": "Password@123",
+    "phone": "938-237-6643",
+    "specialization": "Gynecologist",
+    "experience": 22,
+    "fees": 730,
+    "availableDays": [
+      "Friday",
+      "Tuesday",
+      "Monday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 37
+  },
+  {
+    "name": "Jeffrey Martinez",
+    "email": "wrightfrank@yahoo.com",
+    "password": "Password@123",
+    "phone": "(137)010-0763",
+    "specialization": "Rheumatologist",
+    "experience": 21,
+    "fees": 420,
+    "availableDays": [
+      "Sunday",
+      "Monday",
+      "Thursday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.0,
+    "numReviews": 134
+  },
+  {
+    "name": "Timothy Villarreal",
+    "email": "staciewalls@norton-walsh.info",
+    "password": "Password@123",
+    "phone": "0161525255",
+    "specialization": "Nephrologist",
+    "experience": 13,
+    "fees": 931,
+    "availableDays": [
+      "Saturday",
+      "Thursday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.1,
+    "numReviews": 55
+  },
+  {
+    "name": "Angela Hamilton",
+    "email": "newtonpaula@may-herrera.com",
+    "password": "Password@123",
+    "phone": "6754840658",
+    "specialization": "Urologist",
+    "experience": 23,
+    "fees": 638,
+    "availableDays": [
+      "Friday",
+      "Tuesday",
+      "Monday",
+      "Thursday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 99
+  },
+  {
+    "name": "Andrew Rocha",
+    "email": "vlopez@gmail.com",
+    "password": "Password@123",
+    "phone": "001-364-577-2392x9379",
+    "specialization": "Radiologist",
+    "experience": 12,
+    "fees": 314,
+    "availableDays": [
+      "Sunday",
+      "Tuesday",
+      "Thursday",
+      "Wednesday",
+      "Monday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 3.8,
+    "numReviews": 61
+  },
+  {
+    "name": "Debra Obrien",
+    "email": "davidcordova@thomas.com",
+    "password": "Password@123",
+    "phone": "001-766-469-4224x828",
+    "specialization": "Oncologist",
+    "experience": 26,
+    "fees": 1281,
+    "availableDays": [
+      "Saturday",
+      "Monday",
+      "Thursday",
+      "Friday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.7,
+    "numReviews": 127
+  },
+  {
+    "name": "Rebecca Whitehead",
+    "email": "wpeterson@gomez.com",
+    "password": "Password@123",
+    "phone": "161.612.4588x6524",
+    "specialization": "Dentist",
+    "experience": 31,
+    "fees": 756,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 33
+  },
+  {
+    "name": "John Novak",
+    "email": "xnewman@gmail.com",
+    "password": "Password@123",
+    "phone": "267.970.6431x0563",
+    "specialization": "Gynecologist",
+    "experience": 4,
+    "fees": 925,
+    "availableDays": [
+      "Friday",
+      "Tuesday",
+      "Saturday",
+      "Thursday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 46
+  },
+  {
+    "name": "Mrs. Michelle Walker",
+    "email": "michael45@gmail.com",
+    "password": "Password@123",
+    "phone": "156-470-7805x30915",
+    "specialization": "Nephrologist",
+    "experience": 10,
+    "fees": 1089,
+    "availableDays": [
+      "Monday",
+      "Thursday",
+      "Friday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 3.8,
+    "numReviews": 66
+  },
+  {
+    "name": "Andrew Barton",
+    "email": "rmorgan@hotmail.com",
+    "password": "Password@123",
+    "phone": "(865)613-7649",
+    "specialization": "Gynecologist",
+    "experience": 19,
+    "fees": 868,
+    "availableDays": [
+      "Thursday",
+      "Monday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.9,
+    "numReviews": 123
+  },
+  {
+    "name": "Anthony Velazquez",
+    "email": "karitate@yahoo.com",
+    "password": "Password@123",
+    "phone": "388-064-0802x986",
+    "specialization": "Endocrinologist",
+    "experience": 8,
+    "fees": 1489,
+    "availableDays": [
+      "Monday",
+      "Saturday",
+      "Wednesday",
+      "Thursday",
+      "Tuesday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 3.9,
+    "numReviews": 67
+  },
+  {
+    "name": "Lauren Stewart",
+    "email": "fanderson@gmail.com",
+    "password": "Password@123",
+    "phone": "6515512351",
+    "specialization": "ENT Specialist",
+    "experience": 22,
+    "fees": 1160,
+    "availableDays": [
+      "Friday",
+      "Saturday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.4,
+    "numReviews": 97
+  },
+  {
+    "name": "Elizabeth Wagner",
+    "email": "vargasjaime@gmail.com",
+    "password": "Password@123",
+    "phone": "066.733.0495x9277",
+    "specialization": "Gastroenterologist",
+    "experience": 5,
+    "fees": 509,
+    "availableDays": [
+      "Sunday",
+      "Thursday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.5,
+    "numReviews": 140
+  },
+  {
+    "name": "Christopher Elliott",
+    "email": "wdixon@yahoo.com",
+    "password": "Password@123",
+    "phone": "6088928552",
+    "specialization": "Ophthalmologist",
+    "experience": 20,
+    "fees": 493,
+    "availableDays": [
+      "Friday",
+      "Saturday",
+      "Wednesday",
+      "Monday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.0,
+    "numReviews": 145
+  },
+  {
+    "name": "James Gibson",
+    "email": "ljimenez@hotmail.com",
+    "password": "Password@123",
+    "phone": "037-189-8343",
+    "specialization": "Pulmonologist",
+    "experience": 8,
+    "fees": 1494,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Wednesday",
+      "Monday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.0,
+    "numReviews": 128
+  },
+  {
+    "name": "Nicholas Hernandez",
+    "email": "kyle85@russell.com",
+    "password": "Password@123",
+    "phone": "1228963987",
+    "specialization": "Rheumatologist",
+    "experience": 24,
+    "fees": 981,
+    "availableDays": [
+      "Sunday",
+      "Friday",
+      "Tuesday",
+      "Saturday",
+      "Monday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.1,
+    "numReviews": 33
+  },
+  {
+    "name": "Kathleen Preston",
+    "email": "xgibson@vance.com",
+    "password": "Password@123",
+    "phone": "665.144.6234x667",
+    "specialization": "Dermatologist",
+    "experience": 27,
+    "fees": 556,
+    "availableDays": [
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Monday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 9
+  },
+  {
+    "name": "Michael Ingram",
+    "email": "rhodeselizabeth@yahoo.com",
+    "password": "Password@123",
+    "phone": "397-920-0110x64173",
+    "specialization": "Rheumatologist",
+    "experience": 21,
+    "fees": 341,
+    "availableDays": [
+      "Tuesday",
+      "Friday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.1,
+    "numReviews": 37
+  },
+  {
+    "name": "Eric Butler",
+    "email": "petersonsarah@gmail.com",
+    "password": "Password@123",
+    "phone": "820.331.1978x1602",
+    "specialization": "Oncologist",
+    "experience": 2,
+    "fees": 650,
+    "availableDays": [
+      "Monday",
+      "Thursday",
+      "Tuesday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.9,
+    "numReviews": 82
+  },
+  {
+    "name": "Danielle Davidson",
+    "email": "marissastone@gmail.com",
+    "password": "Password@123",
+    "phone": "066.774.6672x65376",
+    "specialization": "Dermatologist",
+    "experience": 7,
+    "fees": 670,
+    "availableDays": [
+      "Tuesday",
+      "Saturday",
+      "Thursday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.6,
+    "numReviews": 103
+  },
+  {
+    "name": "Alyssa Anderson",
+    "email": "james08@harper-bailey.info",
+    "password": "Password@123",
+    "phone": "+1-547-203-2266x1280",
+    "specialization": "Radiologist",
+    "experience": 12,
+    "fees": 1310,
+    "availableDays": [
+      "Saturday",
+      "Sunday",
+      "Tuesday",
+      "Friday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.4,
+    "numReviews": 15
+  },
+  {
+    "name": "David Mccall",
+    "email": "erinflynn@yahoo.com",
+    "password": "Password@123",
+    "phone": "+1-315-891-2218x0456",
+    "specialization": "Neurologist",
+    "experience": 6,
+    "fees": 1069,
+    "availableDays": [
+      "Thursday",
+      "Wednesday",
+      "Monday",
+      "Saturday",
+      "Friday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.5,
+    "numReviews": 129
+  },
+  {
+    "name": "Michelle Mcgrath",
+    "email": "shughes@sosa.com",
+    "password": "Password@123",
+    "phone": "(301)252-5800x291",
+    "specialization": "Psychiatrist",
+    "experience": 17,
+    "fees": 1190,
+    "availableDays": [
+      "Sunday",
+      "Thursday",
+      "Saturday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 90
+  },
+  {
+    "name": "Jenny Jones",
+    "email": "iortiz@hotmail.com",
+    "password": "Password@123",
+    "phone": "121.042.1902",
+    "specialization": "Dermatologist",
+    "experience": 12,
+    "fees": 801,
+    "availableDays": [
+      "Saturday",
+      "Friday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 5.0,
+    "numReviews": 123
+  },
+  {
+    "name": "Bill Roach",
+    "email": "markbrown@yahoo.com",
+    "password": "Password@123",
+    "phone": "6232083964",
+    "specialization": "Neurologist",
+    "experience": 18,
+    "fees": 968,
+    "availableDays": [
+      "Thursday",
+      "Wednesday",
+      "Sunday",
+      "Saturday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.5,
+    "numReviews": 10
+  },
+  {
+    "name": "Jordan Ortega",
+    "email": "jessica26@watson.com",
+    "password": "Password@123",
+    "phone": "184-616-6612",
+    "specialization": "Urologist",
+    "experience": 9,
+    "fees": 963,
+    "availableDays": [
+      "Sunday",
+      "Monday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.7,
+    "numReviews": 112
+  },
+  {
+    "name": "Erin Hunt",
+    "email": "moorediana@hamilton.com",
+    "password": "Password@123",
+    "phone": "001-326-543-1415x2558",
+    "specialization": "Cardiologist",
+    "experience": 30,
+    "fees": 1016,
+    "availableDays": [
+      "Saturday",
+      "Friday",
+      "Wednesday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 12
+  },
+  {
+    "name": "Deanna Davis",
+    "email": "santanafrank@bowers.com",
+    "password": "Password@123",
+    "phone": "574-626-0214x46419",
+    "specialization": "Neurologist",
+    "experience": 14,
+    "fees": 451,
+    "availableDays": [
+      "Saturday",
+      "Wednesday",
+      "Friday",
+      "Sunday",
+      "Thursday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.4,
+    "numReviews": 58
+  },
+  {
+    "name": "Michael Thompson",
+    "email": "croberts@caldwell-george.com",
+    "password": "Password@123",
+    "phone": "195-781-6352",
+    "specialization": "Orthopedic Surgeon",
+    "experience": 14,
+    "fees": 327,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday",
+      "Tuesday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.0,
+    "numReviews": 27
+  },
+  {
+    "name": "Javier Mcconnell",
+    "email": "collinszachary@stanton.net",
+    "password": "Password@123",
+    "phone": "001-524-825-2836",
+    "specialization": "Pediatrician",
+    "experience": 26,
+    "fees": 532,
+    "availableDays": [
+      "Saturday",
+      "Sunday",
+      "Thursday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.6,
+    "numReviews": 45
+  },
+  {
+    "name": "Ashley Henry",
+    "email": "robin30@blackwell-woodward.com",
+    "password": "Password@123",
+    "phone": "+1-324-420-6848x01578",
+    "specialization": "Gastroenterologist",
+    "experience": 30,
+    "fees": 389,
+    "availableDays": [
+      "Friday",
+      "Tuesday",
+      "Thursday",
+      "Saturday",
+      "Sunday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.3,
+    "numReviews": 46
+  },
+  {
+    "name": "Ana Castro",
+    "email": "upham@yahoo.com",
+    "password": "Password@123",
+    "phone": "031.845.9856",
+    "specialization": "Neurologist",
+    "experience": 10,
+    "fees": 803,
+    "availableDays": [
+      "Sunday",
+      "Tuesday",
+      "Wednesday",
+      "Friday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.6,
+    "numReviews": 40
+  },
+  {
+    "name": "Christopher Arias",
+    "email": "deannasimmons@phillips.com",
+    "password": "Password@123",
+    "phone": "(194)547-2962",
+    "specialization": "Nephrologist",
+    "experience": 17,
+    "fees": 370,
+    "availableDays": [
+      "Thursday",
+      "Wednesday",
+      "Tuesday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 52
+  },
+  {
+    "name": "Lawrence Galloway",
+    "email": "mcdonaldtami@davis.biz",
+    "password": "Password@123",
+    "phone": "001-115-344-5706x043",
+    "specialization": "Endocrinologist",
+    "experience": 1,
+    "fees": 487,
+    "availableDays": [
+      "Friday",
+      "Monday",
+      "Sunday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.5,
+    "numReviews": 146
+  },
+  {
+    "name": "Kyle Hopkins",
+    "email": "alexandermcgrath@hotmail.com",
+    "password": "Password@123",
+    "phone": "001-301-704-7427x876",
+    "specialization": "Orthopedic Surgeon",
+    "experience": 10,
+    "fees": 687,
+    "availableDays": [
+      "Monday",
+      "Sunday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.7,
+    "numReviews": 114
+  },
+  {
+    "name": "Malik Perez",
+    "email": "sarahjackson@yahoo.com",
+    "password": "Password@123",
+    "phone": "464-422-8208",
+    "specialization": "Allergist",
+    "experience": 27,
+    "fees": 1042,
+    "availableDays": [
+      "Wednesday",
+      "Saturday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.6,
+    "numReviews": 35
+  },
+  {
+    "name": "Kimberly Stewart",
+    "email": "ramirezrobert@yahoo.com",
+    "password": "Password@123",
+    "phone": "001-911-800-0283x45888",
+    "specialization": "Neurologist",
+    "experience": 23,
+    "fees": 1287,
+    "availableDays": [
+      "Thursday",
+      "Tuesday",
+      "Saturday",
+      "Friday",
+      "Wednesday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.4,
+    "numReviews": 17
+  },
+  {
+    "name": "Scott Parker",
+    "email": "rodneyzhang@williams-baker.com",
+    "password": "Password@123",
+    "phone": "063.272.0134",
+    "specialization": "Oncologist",
+    "experience": 26,
+    "fees": 1144,
+    "availableDays": [
+      "Friday",
+      "Wednesday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.1,
+    "numReviews": 119
+  },
+  {
+    "name": "Shannon Alexander",
+    "email": "rmitchell@hotmail.com",
+    "password": "Password@123",
+    "phone": "540.103.3651",
+    "specialization": "Nephrologist",
+    "experience": 13,
+    "fees": 756,
+    "availableDays": [
+      "Friday",
+      "Saturday",
+      "Monday",
+      "Thursday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 84
+  },
+  {
+    "name": "Mark Miller",
+    "email": "jonathan24@hotmail.com",
+    "password": "Password@123",
+    "phone": "659.188.8507x6130",
+    "specialization": "Dentist",
+    "experience": 12,
+    "fees": 1195,
+    "availableDays": [
+      "Sunday",
+      "Monday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.1,
+    "numReviews": 108
+  },
+  {
+    "name": "Wayne Guerrero",
+    "email": "tiffanykirby@gmail.com",
+    "password": "Password@123",
+    "phone": "001-284-423-3780x05545",
+    "specialization": "Dentist",
+    "experience": 23,
+    "fees": 1003,
+    "availableDays": [
+      "Sunday",
+      "Tuesday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.6,
+    "numReviews": 55
+  },
+  {
+    "name": "William Warren",
+    "email": "blove@gmail.com",
+    "password": "Password@123",
+    "phone": "001-597-079-1758x9401",
+    "specialization": "Cardiologist",
+    "experience": 19,
+    "fees": 1033,
+    "availableDays": [
+      "Friday",
+      "Monday",
+      "Thursday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.5,
+    "numReviews": 83
+  },
+  {
+    "name": "Barbara Mccann",
+    "email": "angelamurray@gilmore-padilla.com",
+    "password": "Password@123",
+    "phone": "001-169-944-4588",
+    "specialization": "Orthopedic Surgeon",
+    "experience": 3,
+    "fees": 602,
+    "availableDays": [
+      "Thursday",
+      "Friday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 71
+  },
+  {
+    "name": "Adam Dunn",
+    "email": "slee@foley.com",
+    "password": "Password@123",
+    "phone": "808.378.8942",
+    "specialization": "Gynecologist",
+    "experience": 31,
+    "fees": 444,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Sunday",
+      "Thursday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 126
+  },
+  {
+    "name": "Rachael Rodriguez",
+    "email": "lhardin@owens.com",
+    "password": "Password@123",
+    "phone": "(240)936-0408x45156",
+    "specialization": "ENT Specialist",
+    "experience": 10,
+    "fees": 404,
+    "availableDays": [
+      "Thursday",
+      "Sunday",
+      "Saturday",
+      "Tuesday",
+      "Monday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.6,
+    "numReviews": 25
+  },
+  {
+    "name": "Jennifer Logan",
+    "email": "lisa33@brown.com",
+    "password": "Password@123",
+    "phone": "(954)368-4676",
+    "specialization": "General Physician",
+    "experience": 6,
+    "fees": 803,
+    "availableDays": [
+      "Saturday",
+      "Wednesday",
+      "Monday",
+      "Thursday",
+      "Tuesday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.2,
+    "numReviews": 87
+  },
+  {
+    "name": "Kent King",
+    "email": "lesliebanks@hotmail.com",
+    "password": "Password@123",
+    "phone": "212.958.1150",
+    "specialization": "Pulmonologist",
+    "experience": 23,
+    "fees": 651,
+    "availableDays": [
+      "Friday",
+      "Wednesday",
+      "Monday",
+      "Sunday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.9,
+    "numReviews": 45
+  },
+  {
+    "name": "Mary Lin",
+    "email": "lisastanley@jimenez.com",
+    "password": "Password@123",
+    "phone": "195.389.0979x085",
+    "specialization": "Oncologist",
+    "experience": 1,
+    "fees": 1252,
+    "availableDays": [
+      "Saturday",
+      "Wednesday",
+      "Sunday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.4,
+    "numReviews": 50
+  },
+  {
+    "name": "Kristina Hill",
+    "email": "bperry@howard.com",
+    "password": "Password@123",
+    "phone": "129-747-2971x8218",
+    "specialization": "Dentist",
+    "experience": 33,
+    "fees": 1402,
+    "availableDays": [
+      "Thursday",
+      "Friday",
+      "Tuesday",
+      "Wednesday",
+      "Sunday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.0,
+    "numReviews": 141
+  },
+  {
+    "name": "Christopher Smith",
+    "email": "michaelabonilla@hotmail.com",
+    "password": "Password@123",
+    "phone": "+1-716-243-2957x4750",
+    "specialization": "Dermatologist",
+    "experience": 17,
+    "fees": 613,
+    "availableDays": [
+      "Wednesday",
+      "Thursday",
+      "Sunday",
+      "Monday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.7,
+    "numReviews": 124
+  },
+  {
+    "name": "Ralph Hatfield",
+    "email": "andrew48@greene.biz",
+    "password": "Password@123",
+    "phone": "407-049-3261x36185",
+    "specialization": "Psychiatrist",
+    "experience": 22,
+    "fees": 532,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Sunday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 92
+  },
+  {
+    "name": "Savannah Kirby",
+    "email": "justin73@gmail.com",
+    "password": "Password@123",
+    "phone": "0201394945",
+    "specialization": "Psychiatrist",
+    "experience": 1,
+    "fees": 613,
+    "availableDays": [
+      "Sunday",
+      "Friday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.1,
+    "numReviews": 81
+  },
+  {
+    "name": "Melissa Turner",
+    "email": "johnsoneileen@young.com",
+    "password": "Password@123",
+    "phone": "(329)714-4700",
+    "specialization": "Allergist",
+    "experience": 7,
+    "fees": 928,
+    "availableDays": [
+      "Friday",
+      "Tuesday",
+      "Thursday",
+      "Saturday",
+      "Monday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.6,
+    "numReviews": 69
+  },
+  {
+    "name": "Antonio Castaneda",
+    "email": "icampbell@gmail.com",
+    "password": "Password@123",
+    "phone": "060.830.2852x7054",
+    "specialization": "Cardiologist",
+    "experience": 34,
+    "fees": 888,
+    "availableDays": [
+      "Wednesday",
+      "Sunday",
+      "Saturday",
+      "Friday",
+      "Tuesday",
+      "Monday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 95
+  },
+  {
+    "name": "William Graham",
+    "email": "stephenscolin@gmail.com",
+    "password": "Password@123",
+    "phone": "(473)903-5056x18454",
+    "specialization": "Dentist",
+    "experience": 19,
+    "fees": 548,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.6,
+    "numReviews": 105
+  },
+  {
+    "name": "Allison West",
+    "email": "juliawilliams@hotmail.com",
+    "password": "Password@123",
+    "phone": "001-531-665-1162x7828",
+    "specialization": "Endocrinologist",
+    "experience": 8,
+    "fees": 923,
+    "availableDays": [
+      "Sunday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.9,
+    "numReviews": 113
+  },
+  {
+    "name": "Stephanie Lopez",
+    "email": "georgeevans@hotmail.com",
+    "password": "Password@123",
+    "phone": "(085)901-0957",
+    "specialization": "Radiologist",
+    "experience": 6,
+    "fees": 1269,
+    "availableDays": [
+      "Friday",
+      "Wednesday",
+      "Thursday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 133
+  },
+  {
+    "name": "Kristi Porter",
+    "email": "rodriguezbarry@carlson-wilson.com",
+    "password": "Password@123",
+    "phone": "151-967-2405",
+    "specialization": "Urologist",
+    "experience": 22,
+    "fees": 615,
+    "availableDays": [
+      "Wednesday",
+      "Friday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.0,
+    "numReviews": 42
+  },
+  {
+    "name": "Jackie Rice",
+    "email": "rjohnson@kennedy.info",
+    "password": "Password@123",
+    "phone": "0043991100",
+    "specialization": "Pediatrician",
+    "experience": 22,
+    "fees": 1485,
+    "availableDays": [
+      "Friday",
+      "Thursday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.1,
+    "numReviews": 86
+  },
+  {
+    "name": "Carla Daniels",
+    "email": "vanessahanson@yahoo.com",
+    "password": "Password@123",
+    "phone": "(381)444-1176",
+    "specialization": "Nephrologist",
+    "experience": 23,
+    "fees": 906,
+    "availableDays": [
+      "Wednesday",
+      "Monday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.0,
+    "numReviews": 38
+  },
+  {
+    "name": "Leah Kelly",
+    "email": "burchjohn@hotmail.com",
+    "password": "Password@123",
+    "phone": "(851)948-0058x341",
+    "specialization": "Ophthalmologist",
+    "experience": 5,
+    "fees": 924,
+    "availableDays": [
+      "Wednesday",
+      "Monday",
+      "Sunday",
+      "Friday",
+      "Thursday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.8,
+    "numReviews": 136
+  },
+  {
+    "name": "Richard Thompson",
+    "email": "kathleen00@yahoo.com",
+    "password": "Password@123",
+    "phone": "(691)614-4076x38952",
+    "specialization": "ENT Specialist",
+    "experience": 26,
+    "fees": 1125,
+    "availableDays": [
+      "Sunday",
+      "Friday",
+      "Thursday",
+      "Saturday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 26
+  },
+  {
+    "name": "Megan Young",
+    "email": "ftyler@montgomery.biz",
+    "password": "Password@123",
+    "phone": "793-592-0716",
+    "specialization": "Rheumatologist",
+    "experience": 9,
+    "fees": 622,
+    "availableDays": [
+      "Wednesday",
+      "Thursday",
+      "Tuesday",
+      "Monday",
+      "Saturday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.6,
+    "numReviews": 82
+  },
+  {
+    "name": "Stephen Price",
+    "email": "lestermatthew@gmail.com",
+    "password": "Password@123",
+    "phone": "001-084-557-3360",
+    "specialization": "Dentist",
+    "experience": 22,
+    "fees": 1404,
+    "availableDays": [
+      "Tuesday",
+      "Saturday",
+      "Thursday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.6,
+    "numReviews": 47
+  },
+  {
+    "name": "Carmen Smith",
+    "email": "williamallison@myers.com",
+    "password": "Password@123",
+    "phone": "(528)607-1727x0710",
+    "specialization": "Radiologist",
+    "experience": 8,
+    "fees": 859,
+    "availableDays": [
+      "Thursday",
+      "Saturday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.2,
+    "numReviews": 37
+  },
+  {
+    "name": "Steven York",
+    "email": "ianwright@hotmail.com",
+    "password": "Password@123",
+    "phone": "606.314.2025x40875",
+    "specialization": "Pediatrician",
+    "experience": 24,
+    "fees": 939,
+    "availableDays": [
+      "Friday",
+      "Thursday",
+      "Saturday",
+      "Sunday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 115
+  },
+  {
+    "name": "Rickey Baird",
+    "email": "taylorcantrell@hall.biz",
+    "password": "Password@123",
+    "phone": "+1-188-334-2433",
+    "specialization": "Allergist",
+    "experience": 5,
+    "fees": 1158,
+    "availableDays": [
+      "Friday",
+      "Sunday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 27
+  },
+  {
+    "name": "Jeremiah Wright",
+    "email": "fosterjill@yahoo.com",
+    "password": "Password@123",
+    "phone": "001-512-415-4059x3140",
+    "specialization": "Gastroenterologist",
+    "experience": 29,
+    "fees": 1026,
+    "availableDays": [
+      "Thursday",
+      "Wednesday",
+      "Tuesday",
+      "Sunday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.9,
+    "numReviews": 141
+  },
+  {
+    "name": "Megan Michael",
+    "email": "christopher25@yahoo.com",
+    "password": "Password@123",
+    "phone": "288.040.5390x906",
+    "specialization": "Rheumatologist",
+    "experience": 18,
+    "fees": 782,
+    "availableDays": [
+      "Sunday",
+      "Wednesday",
+      "Monday",
+      "Thursday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.0,
+    "numReviews": 142
+  },
+  {
+    "name": "Ryan Daniel",
+    "email": "walkerstephanie@gallegos-jimenez.com",
+    "password": "Password@123",
+    "phone": "(985)119-8254",
+    "specialization": "Rheumatologist",
+    "experience": 9,
+    "fees": 574,
+    "availableDays": [
+      "Wednesday",
+      "Saturday",
+      "Friday",
+      "Monday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "11:30 AM - 01:30 PM",
+      "02:00 PM - 04:00 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 79
+  },
+  {
+    "name": "Patrick Richardson",
+    "email": "matthew34@yahoo.com",
+    "password": "Password@123",
+    "phone": "961.920.5869",
+    "specialization": "Urologist",
+    "experience": 5,
+    "fees": 784,
+    "availableDays": [
+      "Thursday",
+      "Saturday",
+      "Sunday",
+      "Friday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 97
+  },
+  {
+    "name": "Emily Taylor",
+    "email": "albert45@smith.biz",
+    "password": "Password@123",
+    "phone": "9292409995",
+    "specialization": "ENT Specialist",
+    "experience": 31,
+    "fees": 1298,
+    "availableDays": [
+      "Monday",
+      "Thursday",
+      "Wednesday",
+      "Sunday",
+      "Tuesday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.6,
+    "numReviews": 6
+  },
+  {
+    "name": "Jay Peterson",
+    "email": "oyoung@mendez.biz",
+    "password": "Password@123",
+    "phone": "120-216-6188x3601",
+    "specialization": "Psychiatrist",
+    "experience": 19,
+    "fees": 848,
+    "availableDays": [
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.7,
+    "numReviews": 19
+  },
+  {
+    "name": "Joshua Garza",
+    "email": "rboyd@baker-keller.com",
+    "password": "Password@123",
+    "phone": "025.343.9801x91846",
+    "specialization": "Cardiologist",
+    "experience": 11,
+    "fees": 1009,
+    "availableDays": [
+      "Thursday",
+      "Monday",
+      "Saturday",
+      "Friday",
+      "Sunday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.5,
+    "numReviews": 53
+  },
+  {
+    "name": "Sara Johnson",
+    "email": "deanna57@hotmail.com",
+    "password": "Password@123",
+    "phone": "001-125-717-4808x5198",
+    "specialization": "Cardiologist",
+    "experience": 17,
+    "fees": 907,
+    "availableDays": [
+      "Sunday",
+      "Monday",
+      "Friday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.5,
+    "numReviews": 101
+  },
+  {
+    "name": "Daniel Guzman",
+    "email": "hmarsh@yahoo.com",
+    "password": "Password@123",
+    "phone": "460.899.7345x05942",
+    "specialization": "General Physician",
+    "experience": 6,
+    "fees": 859,
+    "availableDays": [
+      "Monday",
+      "Friday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.9,
+    "numReviews": 136
+  },
+  {
+    "name": "Curtis Woods",
+    "email": "amoss@best-young.info",
+    "password": "Password@123",
+    "phone": "001-314-806-5195x274",
+    "specialization": "Neurologist",
+    "experience": 33,
+    "fees": 872,
+    "availableDays": [
+      "Wednesday",
+      "Friday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 3.9,
+    "numReviews": 11
+  },
+  {
+    "name": "Mary Ross",
+    "email": "joshuabennett@blair.com",
+    "password": "Password@123",
+    "phone": "+1-496-836-7055x739",
+    "specialization": "Gynecologist",
+    "experience": 20,
+    "fees": 820,
+    "availableDays": [
+      "Wednesday",
+      "Monday",
+      "Sunday",
+      "Saturday",
+      "Friday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.4,
+    "numReviews": 93
+  },
+  {
+    "name": "Tiffany Hamilton",
+    "email": "todddaniel@jackson.com",
+    "password": "Password@123",
+    "phone": "+1-315-652-4595x7545",
+    "specialization": "Urologist",
+    "experience": 14,
+    "fees": 635,
+    "availableDays": [
+      "Saturday",
+      "Monday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.8,
+    "numReviews": 106
+  },
+  {
+    "name": "Krystal Hernandez",
+    "email": "angela48@frye-rogers.com",
+    "password": "Password@123",
+    "phone": "425-320-1605",
+    "specialization": "Urologist",
+    "experience": 34,
+    "fees": 853,
+    "availableDays": [
+      "Wednesday",
+      "Sunday",
+      "Saturday",
+      "Monday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 4.9,
+    "numReviews": 52
+  },
+  {
+    "name": "Jill Ferguson",
+    "email": "laurenwong@marquez-stephens.com",
+    "password": "Password@123",
+    "phone": "597.230.9029",
+    "specialization": "Neurologist",
+    "experience": 27,
+    "fees": 731,
+    "availableDays": [
+      "Monday",
+      "Friday",
+      "Saturday",
+      "Sunday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.2,
+    "numReviews": 59
+  },
+  {
+    "name": "Crystal Booth",
+    "email": "jessica74@downs.net",
+    "password": "Password@123",
+    "phone": "9672196679",
+    "specialization": "Nephrologist",
+    "experience": 25,
+    "fees": 328,
+    "availableDays": [
+      "Monday",
+      "Friday",
+      "Tuesday",
+      "Saturday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM",
+      "02:00 PM - 04:00 PM",
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.7,
+    "numReviews": 48
+  },
+  {
+    "name": "Amy Taylor",
+    "email": "xbaldwin@alvarez.com",
+    "password": "Password@123",
+    "phone": "615-325-7749",
+    "specialization": "Urologist",
+    "experience": 30,
+    "fees": 607,
+    "availableDays": [
+      "Sunday",
+      "Tuesday",
+      "Monday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "09:00 AM - 11:00 AM",
+      "04:30 PM - 06:30 PM"
+    ],
+    "rating": 3.9,
+    "numReviews": 56
+  },
+  {
+    "name": "Barbara Ruiz",
+    "email": "jacksonbarbara@hotmail.com",
+    "password": "Password@123",
+    "phone": "001-855-244-9554x072",
+    "specialization": "Ophthalmologist",
+    "experience": 13,
+    "fees": 514,
+    "availableDays": [
+      "Saturday",
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Friday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM"
+    ],
+    "rating": 4.3,
+    "numReviews": 18
+  },
+  {
+    "name": "Derrick Rodriguez",
+    "email": "hooversue@potter-smith.com",
+    "password": "Password@123",
+    "phone": "750-712-4312",
+    "specialization": "Dentist",
+    "experience": 35,
+    "fees": 882,
+    "availableDays": [
+      "Wednesday",
+      "Tuesday",
+      "Monday",
+      "Friday",
+      "Sunday"
+    ],
+    "availableTimeSlots": [
+      "02:00 PM - 04:00 PM",
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.3,
+    "numReviews": 58
+  },
+  {
+    "name": "Dustin Rocha",
+    "email": "michele79@yahoo.com",
+    "password": "Password@123",
+    "phone": "(179)225-4178x20565",
+    "specialization": "Gynecologist",
+    "experience": 30,
+    "fees": 1195,
+    "availableDays": [
+      "Thursday",
+      "Wednesday",
+      "Monday",
+      "Saturday",
+      "Tuesday"
+    ],
+    "availableTimeSlots": [
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 4.4,
+    "numReviews": 90
+  },
+  {
+    "name": "Jessica White",
+    "email": "pamelaharris@gmail.com",
+    "password": "Password@123",
+    "phone": "9209107781",
+    "specialization": "Pulmonologist",
+    "experience": 4,
+    "fees": 1495,
+    "availableDays": [
+      "Saturday",
+      "Sunday",
+      "Wednesday",
+      "Friday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTimeSlots": [
+      "11:30 AM - 01:30 PM",
+      "04:30 PM - 06:30 PM",
+      "09:00 AM - 11:00 AM"
+    ],
+    "rating": 3.9,
+    "numReviews": 11
+  }
+]

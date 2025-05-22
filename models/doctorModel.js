@@ -1,11 +1,23 @@
 const mongoose = require('mongoose');
+const bcrypt = require('bcryptjs');
 
 const doctorSchema = mongoose.Schema(
   {
-    user: {
-      type: mongoose.Schema.Types.ObjectId,
-      required: true,
-      ref: 'User',
+    name: {
+      type: String,
+      required: [true, 'Please add name'],
+    },
+    email: {
+      type: String,
+      required: [true, 'Please add email'],
+      unique: true,
+    },
+    password: {
+      type: String,
+      required: [true, 'Please add a password'],
+    },
+    phone: {
+      type: String,
     },
     specialization: {
       type: String,
@@ -42,6 +54,20 @@ const doctorSchema = mongoose.Schema(
   }
 );
 
-const Doctor = mongoose.model('Doctor', doctorSchema);
+// Hash password before saving
+doctorSchema.pre('save', async function (next) {
+  if (!this.isModified('password')) {
+    return next();
+  }
+  const salt = await bcrypt.genSalt(10);
+  this.password = await bcrypt.hash(this.password, salt);
+  next();
+});
 
+// Add method to match password
+doctorSchema.methods.matchPassword = async function (enteredPassword) {
+  return await bcrypt.compare(enteredPassword, this.password);
+};
+
+const Doctor = mongoose.model('Doctor', doctorSchema);
 module.exports = Doctor;

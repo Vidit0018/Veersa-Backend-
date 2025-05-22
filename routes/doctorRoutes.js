@@ -2,22 +2,18 @@ const express = require('express');
 const router = express.Router();
 const {
   registerDoctor,
-  getDoctorProfile,
-  updateDoctorProfile,
+  loginDoctor,
   getDoctors,
   getDoctorById,
+  updateDoctor,
+  deleteDoctor,
 } = require('../controllers/doctorController');
-// const { protect, doctor } = require('../middleware/authMiddleware');
 
-router.route('/')
-  .post(registerDoctor)
-  .get(getDoctors);
-
-router.route('/profile')
-  .get( getDoctorProfile)
-  .put( updateDoctorProfile);
-
-router.route('/:id')
-  .get(getDoctorById);
+router.post('/register', registerDoctor);
+router.post('/login', loginDoctor);
+router.get('/', getDoctors);
+router.get('/:id', getDoctorById);
+router.put('/:id', updateDoctor);
+router.delete('/:id', deleteDoctor);
 
 module.exports = router;

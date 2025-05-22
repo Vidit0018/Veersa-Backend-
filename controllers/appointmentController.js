@@ -2,20 +2,18 @@ const asyncHandler = require('express-async-handler');
 const Appointment = require('../models/appointmentModel');
 const Doctor = require('../models/doctorModel');
 
-// @desc    Create new appointment
+// @desc    Create a new appointment
 // @route   POST /api/appointments
-// @access  Private
+// @access  Public
 const createAppointment = asyncHandler(async (req, res) => {
-  const { doctorId, date, timeSlot, reason, symptoms, notes } = req.body;
+  const { userId, doctorId, date, timeSlot, reason, symptoms, notes } = req.body;
 
-  // Check if doctor exists
   const doctor = await Doctor.findById(doctorId);
   if (!doctor) {
     res.status(404);
     throw new Error('Doctor not found');
   }
 
-  // Check if time slot is available
   const appointmentDate = new Date(date);
   const existingAppointment = await Appointment.findOne({
     doctor: doctorId,
@@ -32,9 +30,8 @@ const createAppointment = asyncHandler(async (req, res) => {
     throw new Error('This time slot is already booked');
   }
 
-  // Create the appointment
   const appointment = await Appointment.create({
-    user: req.user._id,
+    user: userId,
     doctor: doctorId,
     date,
     timeSlot,
@@ -51,73 +48,34 @@ const createAppointment = asyncHandler(async (req, res) => {
   }
 });
 
-// @desc    Get user appointments
-// @route   GET /api/appointments/my
-// @access  Private
-const getMyAppointments = asyncHandler(async (req, res) => {
-  const appointments = await Appointment.find({ user: req.user._id })
-    .populate({
-      path: 'doctor',
-      select: 'specialization fees',
-      populate: {
-        path: 'user',
-        select: 'name'
-      }
-    })
-    .sort({ date: -1 });
+// @desc    Get appointments by user ID
+// @route   GET /api/appointments/user/:userId
+// @access  Public
+const getAppointmentsByUserId = asyncHandler(async (req, res) => {
+  const { userId } = req.params;
 
+  const appointments = await Appointment.find({ user: userId }).sort({ date: -1 });
   res.json(appointments);
 });
 
-// @desc    Get doctor appointments
-// @route   GET /api/appointments/doctor
-// @access  Private/Doctor
-const getDoctorAppointments = asyncHandler(async (req, res) => {
-  // Find the doctor profile
-  const doctor = await Doctor.findOne({ user: req.user._id });
-  
-  if (!doctor) {
-    res.status(404);
-    throw new Error('Doctor profile not found');
-  }
+// @desc    Get appointments by doctor ID
+// @route   GET /api/appointments/doctor/:doctorId
+// @access  Public
+const getAppointmentsByDoctorId = asyncHandler(async (req, res) => {
+  const { doctorId } = req.params;
 
-  const appointments = await Appointment.find({ doctor: doctor._id })
-    .populate('user', 'name email phone')
-    .sort({ date: -1 });
-
+  const appointments = await Appointment.find({ doctor: doctorId }).sort({ date: -1 });
   res.json(appointments);
 });
 
 // @desc    Get appointment by ID
 // @route   GET /api/appointments/:id
-// @access  Private
+// @access  Public
 const getAppointmentById = asyncHandler(async (req, res) => {
-  const appointment = await Appointment.findById(req.params.id)
-    .populate('user', 'name email phone')
-    .populate({
-      path: 'doctor',
-      select: 'specialization fees',
-      populate: {
-        path: 'user',
-        select: 'name'
-      }
-    });
+  const appointment = await Appointment.findById(req.params.id);
 
   if (appointment) {
-    // Check if the appointment belongs to the logged in user or doctor
-    const doctor = await Doctor.findOne({ user: req.user._id });
-    const isDoctorOfAppointment = doctor && doctor._id.toString() === appointment.doctor._id.toString();
-    
-    if (
-      appointment.user._id.toString() === req.user._id.toString() ||
-      isDoctorOfAppointment ||
-      req.user.isAdmin
-    ) {
-      res.json(appointment);
-    } else {
-      res.status(401);
-      throw new Error('Not authorized to access this appointment');
-    }
+    res.json(appointment);
   } else {
     res.status(404);
     throw new Error('Appointment not found');
@@ -126,51 +84,21 @@ const getAppointmentById = asyncHandler(async (req, res) => {
 
 // @desc    Update appointment
 // @route   PUT /api/appointments/:id
-// @access  Private
+// @access  Public
 const updateAppointment = asyncHandler(async (req, res) => {
   const appointment = await Appointment.findById(req.params.id);
 
   if (appointment) {
-    // Check if the appointment belongs to the logged in user or doctor
-    const doctor = await Doctor.findOne({ user: req.user._id });
-    const isDoctorOfAppointment = doctor && doctor._id.toString() === appointment.doctor.toString();
-    
-    if (
-      appointment.user.toString() === req.user._id.toString() ||
-      isDoctorOfAppointment ||
-      req.user.isAdmin
-    ) {
-      // If user is updating, they can only update certain fields
-      if (appointment.user.toString() === req.user._id.toString()) {
-        appointment.reason = req.body.reason || appointment.reason;
-        appointment.symptoms = req.body.symptoms || appointment.symptoms;
-        appointment.notes = req.body.notes || appointment.notes;
-        
-        // Users can only cancel appointments
-        if (req.body.status === 'cancelled') {
-          appointment.status = 'cancelled';
-        }
-      } else {
-        // Doctors and admins can update all fields
-        appointment.date = req.body.date || appointment.date;
-        appointment.timeSlot = req.body.timeSlot || appointment.timeSlot;
-        appointment.reason = req.body.reason || appointment.reason;
-        appointment.symptoms = req.body.symptoms || appointment.symptoms;
-        appointment.notes = req.body.notes || appointment.notes;
-        appointment.status = req.body.status || appointment.status;
-        
-        // Only doctors can add prescriptions
-        if (isDoctorOfAppointment && req.body.prescriptions) {
-          appointment.prescriptions = req.body.prescriptions;
-        }
-      }
+    appointment.date = req.body.date || appointment.date;
+    appointment.timeSlot = req.body.timeSlot || appointment.timeSlot;
+    appointment.reason = req.body.reason || appointment.reason;
+    appointment.symptoms = req.body.symptoms || appointment.symptoms;
+    appointment.notes = req.body.notes || appointment.notes;
+    appointment.status = req.body.status || appointment.status;
+    appointment.prescriptions = req.body.prescriptions || appointment.prescriptions;
 
-      const updatedAppointment = await appointment.save();
-      res.json(updatedAppointment);
-    } else {
-      res.status(401);
-      throw new Error('Not authorized to update this appointment');
-    }
+    const updatedAppointment = await appointment.save();
+    res.json(updatedAppointment);
   } else {
     res.status(404);
     throw new Error('Appointment not found');
@@ -179,57 +107,33 @@ const updateAppointment = asyncHandler(async (req, res) => {
 
 // @desc    Delete appointment
 // @route   DELETE /api/appointments/:id
-// @access  Private
+// @access  Public
 const deleteAppointment = asyncHandler(async (req, res) => {
   const appointment = await Appointment.findById(req.params.id);
 
   if (appointment) {
-    // Check if the appointment belongs to the logged in user or doctor
-    const doctor = await Doctor.findOne({ user: req.user._id });
-    const isDoctorOfAppointment = doctor && doctor._id.toString() === appointment.doctor.toString();
-    
-    if (
-      appointment.user.toString() === req.user._id.toString() ||
-      isDoctorOfAppointment ||
-      req.user.isAdmin
-    ) {
-      await Appointment.deleteOne({ _id: req.params.id });
-      res.json({ message: 'Appointment removed' });
-    } else {
-      res.status(401);
-      throw new Error('Not authorized to delete this appointment');
-    }
+    await Appointment.deleteOne({ _id: req.params.id });
+    res.json({ message: 'Appointment removed' });
   } else {
     res.status(404);
     throw new Error('Appointment not found');
   }
 });
 
-// @desc    Get all appointments
+// @desc    Get all appointments (for admin view)
 // @route   GET /api/appointments
-// @access  Private/Admin
-const getAppointments = asyncHandler(async (req, res) => {
-  const appointments = await Appointment.find({})
-    .populate('user', 'name email')
-    .populate({
-      path: 'doctor',
-      select: 'specialization',
-      populate: {
-        path: 'user',
-        select: 'name'
-      }
-    })
-    .sort({ date: -1 });
-  
+// @access  Public
+const getAllAppointments = asyncHandler(async (req, res) => {
+  const appointments = await Appointment.find({}).sort({ date: -1 });
   res.json(appointments);
 });
 
 module.exports = {
   createAppointment,
-  getMyAppointments,
-  getDoctorAppointments,
+  getAppointmentsByUserId,
+  getAppointmentsByDoctorId,
   getAppointmentById,
   updateAppointment,
   deleteAppointment,
-  getAppointments,
+  getAllAppointments,
 };

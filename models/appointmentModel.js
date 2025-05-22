@@ -7,11 +7,11 @@ const appointmentSchema = mongoose.Schema(
       required: true,
       ref: 'User',
     },
-    doctor: {
-      type: mongoose.Schema.Types.ObjectId,
-      required: true,
-      ref: 'Doctor',
-    },
+doctor: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Doctor'  // ✅ This must match the model name exactly
+  },
+
     date: {
       type: Date,
       required: [true, 'Please add appointment date'],
