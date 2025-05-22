@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
+const geocoder = require('../utils/geocoder'); // Make sure to import your geocoder
 
 const userSchema = mongoose.Schema(
   {
@@ -30,6 +31,12 @@ const userSchema = mongoose.Schema(
       type: String,
       required: [true, 'Please add an address'],
     },
+    latitude: {
+      type: Number,
+    },
+    longitude: {
+      type: Number,
+    },
     isAdmin: {
       type: Boolean,
       required: true,
@@ -46,14 +53,41 @@ const userSchema = mongoose.Schema(
   }
 );
 
+// Geocode address and add lat/lng
+userSchema.pre('save', async function (next) {
+  if (!this.isModified('address')) return next();
+  
+  try {
+    const loc = await geocoder.geocode(this.address);
+    
+    if (loc && loc.length > 0) {
+      this.latitude = loc[0].latitude;
+      this.longitude = loc[0].longitude;
+      
+      console.log('User geocoding - Latitude:', this.latitude);
+      console.log('User geocoding - Longitude:', this.longitude);
+    } else {
+      console.log('No geocoding results found for user address:', this.address);
+    }
+  } catch (error) {
+    console.error('User geocoding error:', error);
+    // Don't return the error to next() unless you want to prevent saving
+    // If geocoding fails, we can still save the user without coordinates
+    console.log('Continuing save without coordinates...');
+  }
+  
+  next();
+});
+
 // Encrypt password using bcrypt
 userSchema.pre('save', async function (next) {
   if (!this.isModified('password')) {
-    next();
+    return next();
   }
 
   const salt = await bcrypt.genSalt(10);
   this.password = await bcrypt.hash(this.password, salt);
+  next();
 });
 
 // Match user entered password to hashed password in database
