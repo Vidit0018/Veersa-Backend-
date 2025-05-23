@@ -6,7 +6,7 @@ const Doctor = require('../models/doctorModel');
 // @route   POST /api/appointments
 // @access  Public
 const createAppointment = asyncHandler(async (req, res) => {
-  const { userId, doctorId, date, timeSlot, reason, symptoms, notes } = req.body;
+  const { userId, doctorId, date, timeSlot, reason, symptoms, notes, drivingLink } = req.body;
 
   const doctor = await Doctor.findById(doctorId);
   if (!doctor) {
@@ -38,6 +38,7 @@ const createAppointment = asyncHandler(async (req, res) => {
     reason,
     symptoms,
     notes,
+    drivingLink,
   });
 
   if (appointment) {
@@ -54,25 +55,51 @@ const createAppointment = asyncHandler(async (req, res) => {
 const getAppointmentsByUserId = asyncHandler(async (req, res) => {
   const { userId } = req.params;
 
-  const appointments = await Appointment.find({ user: userId }).sort({ date: -1 });
-  res.json(appointments);
+  const appointments = await Appointment.find({ user: userId })
+    .sort({ date: -1 })
+    .populate({
+      path: 'doctor',
+      select: '-password -__v'  // Exclude sensitive doctor fields
+    }).populate({
+
+      path: 'user',
+    });
+
+
+  res.status(200).json(appointments);
 });
+
 
 // @desc    Get appointments by doctor ID
 // @route   GET /api/appointments/doctor/:doctorId
 // @access  Public
 const getAppointmentsByDoctorId = asyncHandler(async (req, res) => {
   const { doctorId } = req.params;
+  const appointments = await Appointment.find({ doctor: doctorId })
+    .sort({ date: -1 }).populate({
+      path: 'doctor',
+      select: '-password -__v'  // Exclude sensitive doctor fields
+    }).populate({
 
-  const appointments = await Appointment.find({ doctor: doctorId }).sort({ date: -1 });
-  res.json(appointments);
+      path: 'user',
+    });;
+  res.json(appointments);a
 });
 
 // @desc    Get appointment by ID
 // @route   GET /api/appointments/:id
 // @access  Public
 const getAppointmentById = asyncHandler(async (req, res) => {
-  const appointment = await Appointment.findById(req.params.id);
+  const appointment = await Appointment.findById(req.params.id)
+    .sort({ date: -1 })
+    .populate({
+      path: 'doctor',
+      select: '-password -__v'  // Exclude sensitive doctor fields
+    })
+    .populate({
+      path: 'user',
+    });;
+  ;
 
   if (appointment) {
     res.json(appointment);
@@ -89,13 +116,25 @@ const updateAppointment = asyncHandler(async (req, res) => {
   const appointment = await Appointment.findById(req.params.id);
 
   if (appointment) {
-    appointment.date = req.body.date || appointment.date;
-    appointment.timeSlot = req.body.timeSlot || appointment.timeSlot;
-    appointment.reason = req.body.reason || appointment.reason;
-    appointment.symptoms = req.body.symptoms || appointment.symptoms;
-    appointment.notes = req.body.notes || appointment.notes;
-    appointment.status = req.body.status || appointment.status;
-    appointment.prescriptions = req.body.prescriptions || appointment.prescriptions;
+    const {
+      date,
+      timeSlot,
+      reason,
+      symptoms,
+      notes,
+      status,
+      prescriptions,
+      drivingLink,
+    } = req.body;
+
+    appointment.date = date || appointment.date;
+    appointment.timeSlot = timeSlot || appointment.timeSlot;
+    appointment.reason = reason || appointment.reason;
+    appointment.symptoms = symptoms || appointment.symptoms;
+    appointment.notes = notes || appointment.notes;
+    appointment.status = status || appointment.status;
+    appointment.prescriptions = prescriptions || appointment.prescriptions;
+    appointment.drivingLink = drivingLink || appointment.drivingLink;
 
     const updatedAppointment = await appointment.save();
     res.json(updatedAppointment);
@@ -120,16 +159,15 @@ const deleteAppointment = asyncHandler(async (req, res) => {
   }
 });
 
-// @desc    Get all appointments (for admin view)
+// @desc    Get all appointments (admin)
 // @route   GET /api/appointments
 // @access  Public
 const getAllAppointments = asyncHandler(async (req, res) => {
-  const page = Number(req.query.page) || 1;          // Default to page 1
-  const limit = Number(req.query.limit) || 10;       // Default to 10 records per page
+  const page = Number(req.query.page) || 1;
+  const limit = Number(req.query.limit) || 10;
   const skip = (page - 1) * limit;
 
-  const total = await Appointment.countDocuments();  // Total number of appointments
-
+  const total = await Appointment.countDocuments();
   const appointments = await Appointment.find({})
     .sort({ date: -1 })
     .skip(skip)
