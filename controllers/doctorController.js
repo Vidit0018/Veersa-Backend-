@@ -69,7 +69,14 @@ const loginDoctor = asyncHandler(async (req, res) => {
   }
 });
 
-
+const getSpecializations = async()=>{
+  try{
+    const specializations = await Doctor.distinct("specialization");
+    console.log("unique specializations : ", specializations);
+  }catch(error){
+    console.log("error : ",error.message);
+  }
+};
 
 // @desc    Get all doctors
 // @route   GET /api/doctors
@@ -78,10 +85,18 @@ const getDoctors = asyncHandler(async (req, res) => {
   const page = Number(req.query.page) || 1;         // Default to page 1
   const limit = Number(req.query.limit) || 10;      // Default to 10 doctors per page
   const skip = (page - 1) * limit;
+  // getSpecializations();
+  const { specialization } = req.query;
 
-  const total = await Doctor.countDocuments();      // Total number of doctors
+  // Build a filter object
+  const filter = {};
+  if (specialization) {
+    filter.specialization = specialization;
+  }
 
-  const doctors = await Doctor.find({})
+  const total = await Doctor.countDocuments(filter);      // Total number of doctors matching filter
+
+  const doctors = await Doctor.find(filter)
     .skip(skip)
     .limit(limit);
 
@@ -93,6 +108,7 @@ const getDoctors = asyncHandler(async (req, res) => {
     doctors,
   });
 });
+
 
 
 // @desc    Get doctor by ID
