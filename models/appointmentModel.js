@@ -7,11 +7,10 @@ const appointmentSchema = mongoose.Schema(
       required: true,
       ref: 'User',
     },
-doctor: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Doctor'  // ✅ This must match the model name exactly
-  },
-
+    doctor: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Doctor',
+    },
     date: {
       type: Date,
       required: [true, 'Please add appointment date'],
@@ -37,17 +36,29 @@ doctor: {
     notes: {
       type: String,
     },
-    prescriptions: [{
-      medicine: {
-        type: String,
+    prescriptions: [
+      {
+        medicine: {
+          type: String,
+        },
+        dosage: {
+          type: String,
+        },
+        duration: {
+          type: String,
+        },
       },
-      dosage: {
-        type: String,
+    ],
+    drivingLink: {
+      type: String,
+      required: [true, 'Please provide a driving directions link'],
+      validate: {
+        validator: function (v) {
+          return /^https?:\/\/.+$/.test(v); // basic URL format check
+        },
+        message: (props) => `${props.value} is not a valid URL!`,
       },
-      duration: {
-        type: String,
-      }
-    }],
+    },
   },
   {
     timestamps: true,
