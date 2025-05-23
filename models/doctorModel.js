@@ -22,9 +22,14 @@ const doctorSchema = mongoose.Schema(
     longitude: { type: Number },
     rating: { type: Number, default: 0 },
     numReviews: { type: Number, default: 0 },
+    imageUrl: {
+      type: String,
+      default: 'https://cdn.pixabay.com/photo/2016/09/02/14/26/doctor-1639328_1280.png',
+    },
   },
   { timestamps: true }
 );
+
 
 // Hash password
 doctorSchema.pre('save', async function (next) {
