@@ -32,6 +32,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use('/api/users', require('./routes/userRoutes'));
 app.use('/api/appointments', require('./routes/appointmentRoutes'));
 app.use('/api/doctors', require('./routes/doctorRoutes'));
+app.use('/api/diagnosis',require('./routes/diagnosisRoutes'));
+app.use('/api/symptoms',require('./routes/symptoms'));
 
 // Base route
 app.get('/', (req, res) => {
