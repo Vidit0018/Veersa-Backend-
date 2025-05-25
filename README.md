@@ -1,78 +1,97 @@
 # 🩺 AppointMed – Smart Medical Appointment App (Backend)
 
-This repository contains the backend codebase for **AppointMed**, a full-stack AI-assisted medical appointment application. The backend provides RESTful APIs for user authentication, doctor suggestions, appointment booking, and admin functionalities.
+This repository contains the backend code for **AppointMed**, a full-stack, AI-assisted medical appointment mobile application. The backend enables user management, doctor discovery based on symptoms and geolocation, and appointment scheduling features.
 
 ---
 
 ## 📌 Project Overview
 
-AppointMed is a smart medical appointment mobile application that allows users to:
+AppointMed allows users to:
+- Register, log in, and securely manage their profile
+- Input symptoms to receive AI-generated doctor suggestions
+- Sort and filter doctors based on specialization and proximity
+- Book, reschedule, and cancel appointments
 
-- Seamlessly schedule medical appointments
-- Receive AI-based suggestions for specialists based on symptoms
-- Sort nearby doctors using geolocation
+Admins can:
+- Manage doctor profiles
+- Monitor system metrics
 
 ---
 
 ## ✅ Functional Requirements
 
-- Users can:
-  - Register and log in
-  - Input symptoms and receive AI-generated doctor suggestions
-  - Search, sort, and filter doctors by specialization and distance
-  - Book, reschedule, or cancel appointments
-- Admins can:
-  - Manage doctors
-  - View system metrics
+- User authentication and registration
+- Symptom-based AI doctor suggestions
+- Geolocation-based doctor sorting
+- Doctor filtering by specialization and distance
+- Appointment booking, rescheduling, and cancellation
+- Admin dashboard for doctor and metric management
 
 ---
 
 ## 🔐 Non-Functional Requirements
 
-- RESTful API architecture for scalability
-- Optimized API response time with pagination and server-side filtering
-- Secure token-based authentication
-- Mobile-first, smooth UX design
-- High availability using Railway hosting
+- Scalable RESTful API architecture
+- Optimized response times via backend-side pagination and filtering
+- Token-based authentication (secure)
+- Mobile-first UX design
+- High availability via **Railway** hosting
 
 ---
 
 ## 🧱 Tech Stack Used
 
-### Backend:
-- **Node.js** with **Express.js**
-- **MongoDB Atlas**
-- **Languages**: JavaScript and TypeScript
+### 📌 Backend:
+- Node.js with Express.js
+- MongoDB Atlas
+- Languages: JavaScript & TypeScript
 
-### AI Assistance:
-- **Gemini API** – Doctor suggestions
-- **RapidAPI Med API** – Diagnosis
-- **Replicate API** – Additional AI tasks
+### 🤖 AI Assistance:
+- Gemini API – Doctor suggestions based on symptoms
+- RapidAPI Med API – Diagnosis and condition mapping
+- Replicate API – Additional AI tasks
 
-### Public APIs:
-- **OpenCage API** – Address-to-coordinates
-- **OpenStreetMap API** – Location sorting
+### 🌍 Public APIs:
+- OpenCage API – Address to coordinates
+- OpenStreetMap API – Geolocation sorting
 
-### Code & Project Management:
-- Git & GitHub (branching strategy)
-- Postman (shared workspace)
-- Trello Board (task and API tracking)
-- Figma (design and prototyping)
-- Railway & Render for backend hosting
+### 🛠 Tools & Management:
+- Git & GitHub – Branching strategy with `develop` and feature branches
+- Postman – Shared workspace for API testing
+- Trello – Task and API tracking
+- Figma – UI design and prototyping
+- Railway & Render – Backend hosting
 
 ---
 
 ## 📏 Coding Protocols & Best Practices
 
-1. Modular RESTful backend structure for scalability
-2. Production-ready with 1000+ doctor dataset
-3. Reusable API services on frontend
-4. Backend-side filtering and pagination for performance
-5. Git workflow with `developer-specific` and `develop` branches
-6. Thorough testing before merge
-7. Shared Postman collection for easier collaboration
-8. Trello maintained with task details and cURL requests
-9. Hosted on Railway for persistent uptime
-10. Proper error modeling with consistent status codes
+1. Modular RESTful backend architecture
+2. 1000+ doctor dataset for production readiness
+3. API services decoupled for frontend reusability
+4. Backend-side filtering & pagination for performance
+5. Git workflow with separate dev/feature branches
+6. Thorough API testing before merges
+7. Shared Postman collection for collaboration
+8. Trello board maintained with cURLs and task tracking
+9. Deployed via Railway for persistent uptime
+10. Consistent error handling with proper status codes
 
 ---
+
+## 📎 Additional Resources
+
+- 📄 **Project Documentation**:  
+  [View on Google Drive](https://drive.google.com/file/d/1I22vA-GGSCmgwxKFoFUxdnDN0wEsw2H_/view?usp=drive_link)
+
+- 🎨 **Figma Design**:  
+  [Doctor Appointment App UI Kit](https://www.figma.com/design/BoGSswg5qWtmEwiz9hRfBh/Doctor-Appointment---Consultation-App-UI-Kit-%7C-Case-Study--Community-?node-id=0-1&p=f&t=YChGVDzwc1gXydu8-0)
+
+- 🧪 **Manual Testing Report**:  
+  [Download on Google Drive](https://drive.google.com/file/d/1F4oDQ5IY-DWwCRengkeOUgL6ysz474ks/view?usp=sharing)
+
+---
+
+## 📬 Contact
+
+For any questions, please open an issue or reach out via the project's GitHub repository.
